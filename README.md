@@ -80,7 +80,3 @@ The recorded qualitative review is by the coding assistant inspecting actual ima
 - `cli.py`: runnable demonstration interface.
 
 Tests exercise real temporary Chroma persistence with small supplied vectors and verify held-out caption handling and recall arithmetic. They do not substitute for the separate real model/data evaluation.
-
-## Git workflow
-
-See [GITHUB_WORKFLOW.md](GITHUB_WORKFLOW.md) for branch history and commands to create a GitHub repository and push. Feature branches are intended to be reviewed in dependency order and manually squash-merged.
