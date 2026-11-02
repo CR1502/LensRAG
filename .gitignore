@@ -19,4 +19,5 @@ __pycache__/
 *.egg-info/
 dist/
 build/
+GITHUB_WORKFLOW.md
 
