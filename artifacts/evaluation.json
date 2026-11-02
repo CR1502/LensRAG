@@ -1,0 +1,5836 @@
+{
+  "run_utc": "2026-11-02T20:28:07.739800+00:00",
+  "dataset": "tsystems/flickr8k",
+  "dataset_revision": "81fc5f3a41274c80f17b0406426d57cac57ce6fb",
+  "source_shard": "data/train-00000-of-00003.parquet",
+  "seed": 42,
+  "max_images": 2000,
+  "image_count": 2000,
+  "caption_count": 9900,
+  "query_count": 100,
+  "model_id": "openai/clip-vit-base-patch32",
+  "model_revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+  "index_metadata": {
+    "model_revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+    "manifest_digest": "b0fe4b6c4d186300c079689f6d33ecd52c596e3a73c20a62273a3f3d28ef7c8d",
+    "model_id": "openai/clip-vit-base-patch32"
+  },
+  "manifest_sha256": "9b37b00fc2e56a6e82f2fd10ebcce4d60507baa47e23eb8d7d221a09a6e9d3c4",
+  "queries_sha256": "6b9b7db79a5d55c6d4f43cabeaa577a61b79f89d5e77ae1d2af981422e5b893e",
+  "recall_at_k": {
+    "1": 0.4,
+    "5": 0.64,
+    "10": 0.76
+  },
+  "device": "cpu",
+  "platform": "macOS-27.0-arm64-arm-64bit",
+  "versions": {
+    "torch": "2.15.0",
+    "transformers": "4.57.6",
+    "chromadb": "1.5.9",
+    "numpy": "2.5.4",
+    "pillow": "13.0.0"
+  },
+  "queries": [
+    {
+      "query_id": "q-0000",
+      "image_id": "img-001309",
+      "text": "Adults in winter jackets and hats swing brooms at a little yellow ball while a black dog looks on .",
+      "rank": 1,
+      "retrieved": [
+        {
+          "image_id": "img-001309",
+          "image_path": "images/img-001309.jpg",
+          "distance": 0.6428542733192444
+        },
+        {
+          "image_id": "img-001663",
+          "image_path": "images/img-001663.jpg",
+          "distance": 0.6834632158279419
+        },
+        {
+          "image_path": "images/img-000360.jpg",
+          "image_id": "img-000360",
+          "distance": 0.6844022274017334
+        },
+        {
+          "image_id": "img-000019",
+          "image_path": "images/img-000019.jpg",
+          "distance": 0.6874474287033081
+        },
+        {
+          "image_id": "img-000668",
+          "image_path": "images/img-000668.jpg",
+          "distance": 0.6878510117530823
+        },
+        {
+          "image_id": "img-001163",
+          "image_path": "images/img-001163.jpg",
+          "distance": 0.6908480525016785
+        },
+        {
+          "image_path": "images/img-001426.jpg",
+          "image_id": "img-001426",
+          "distance": 0.6914486885070801
+        },
+        {
+          "image_path": "images/img-001084.jpg",
+          "image_id": "img-001084",
+          "distance": 0.6914845705032349
+        },
+        {
+          "image_path": "images/img-001483.jpg",
+          "image_id": "img-001483",
+          "distance": 0.6922678351402283
+        },
+        {
+          "image_id": "img-001969",
+          "image_path": "images/img-001969.jpg",
+          "distance": 0.692673921585083
+        }
+      ]
+    },
+    {
+      "query_id": "q-0001",
+      "image_id": "img-000228",
+      "text": "girls seated at table with a candle covered with lit candles",
+      "rank": 1,
+      "retrieved": [
+        {
+          "image_path": "images/img-000228.jpg",
+          "image_id": "img-000228",
+          "distance": 0.6935895681381226
+        },
+        {
+          "image_path": "images/img-000056.jpg",
+          "image_id": "img-000056",
+          "distance": 0.7263262271881104
+        },
+        {
+          "image_id": "img-001054",
+          "image_path": "images/img-001054.jpg",
+          "distance": 0.7455565929412842
+        },
+        {
+          "image_id": "img-000448",
+          "image_path": "images/img-000448.jpg",
+          "distance": 0.7563570737838745
+        },
+        {
+          "image_id": "img-000376",
+          "image_path": "images/img-000376.jpg",
+          "distance": 0.7614054083824158
+        },
+        {
+          "image_id": "img-001519",
+          "image_path": "images/img-001519.jpg",
+          "distance": 0.762623131275177
+        },
+        {
+          "image_path": "images/img-001907.jpg",
+          "image_id": "img-001907",
+          "distance": 0.7628565430641174
+        },
+        {
+          "image_path": "images/img-001752.jpg",
+          "image_id": "img-001752",
+          "distance": 0.7658278942108154
+        },
+        {
+          "image_path": "images/img-001916.jpg",
+          "image_id": "img-001916",
+          "distance": 0.7685930132865906
+        },
+        {
+          "image_path": "images/img-001986.jpg",
+          "image_id": "img-001986",
+          "distance": 0.771965742111206
+        }
+      ]
+    },
+    {
+      "query_id": "q-0002",
+      "image_id": "img-000051",
+      "text": "A man in blue shorts is laying in the street .",
+      "rank": 1,
+      "retrieved": [
+        {
+          "image_path": "images/img-000051.jpg",
+          "image_id": "img-000051",
+          "distance": 0.672855794429779
+        },
+        {
+          "image_path": "images/img-001544.jpg",
+          "image_id": "img-001544",
+          "distance": 0.6882688999176025
+        },
+        {
+          "image_id": "img-000117",
+          "image_path": "images/img-000117.jpg",
+          "distance": 0.6896658539772034
+        },
+        {
+          "image_id": "img-000227",
+          "image_path": "images/img-000227.jpg",
+          "distance": 0.6899716854095459
+        },
+        {
+          "image_id": "img-000886",
+          "image_path": "images/img-000886.jpg",
+          "distance": 0.6994191408157349
+        },
+        {
+          "image_id": "img-001265",
+          "image_path": "images/img-001265.jpg",
+          "distance": 0.7003328800201416
+        },
+        {
+          "image_id": "img-000570",
+          "image_path": "images/img-000570.jpg",
+          "distance": 0.7126818895339966
+        },
+        {
+          "image_path": "images/img-000449.jpg",
+          "image_id": "img-000449",
+          "distance": 0.7147214412689209
+        },
+        {
+          "image_id": "img-000262",
+          "image_path": "images/img-000262.jpg",
+          "distance": 0.7231201529502869
+        },
+        {
+          "image_id": "img-001993",
+          "image_path": "images/img-001993.jpg",
+          "distance": 0.7257296442985535
+        }
+      ]
+    },
+    {
+      "query_id": "q-0003",
+      "image_id": "img-001518",
+      "text": "A brown dog is shaking off the snow .",
+      "rank": 6,
+      "retrieved": [
+        {
+          "image_id": "img-000080",
+          "image_path": "images/img-000080.jpg",
+          "distance": 0.6765588521957397
+        },
+        {
+          "image_path": "images/img-001186.jpg",
+          "image_id": "img-001186",
+          "distance": 0.6774952411651611
+        },
+        {
+          "image_id": "img-000951",
+          "image_path": "images/img-000951.jpg",
+          "distance": 0.6782577037811279
+        },
+        {
+          "image_id": "img-001121",
+          "image_path": "images/img-001121.jpg",
+          "distance": 0.6796307563781738
+        },
+        {
+          "image_path": "images/img-001533.jpg",
+          "image_id": "img-001533",
+          "distance": 0.6799503564834595
+        },
+        {
+          "image_id": "img-001518",
+          "image_path": "images/img-001518.jpg",
+          "distance": 0.6821722984313965
+        },
+        {
+          "image_path": "images/img-000873.jpg",
+          "image_id": "img-000873",
+          "distance": 0.6827908158302307
+        },
+        {
+          "image_id": "img-001041",
+          "image_path": "images/img-001041.jpg",
+          "distance": 0.6828606724739075
+        },
+        {
+          "image_id": "img-001072",
+          "image_path": "images/img-001072.jpg",
+          "distance": 0.6847763061523438
+        },
+        {
+          "image_path": "images/img-001699.jpg",
+          "image_id": "img-001699",
+          "distance": 0.6850375533103943
+        }
+      ]
+    },
+    {
+      "query_id": "q-0004",
+      "image_id": "img-000563",
+      "text": "A man in a white shirt and sunglasses gazes into the horizon .",
+      "rank": null,
+      "retrieved": [
+        {
+          "image_id": "img-000632",
+          "image_path": "images/img-000632.jpg",
+          "distance": 0.6536884903907776
+        },
+        {
+          "image_id": "img-000973",
+          "image_path": "images/img-000973.jpg",
+          "distance": 0.6872908473014832
+        },
+        {
+          "image_path": "images/img-000192.jpg",
+          "image_id": "img-000192",
+          "distance": 0.6988375186920166
+        },
+        {
+          "image_path": "images/img-001831.jpg",
+          "image_id": "img-001831",
+          "distance": 0.7020419836044312
+        },
+        {
+          "image_id": "img-000114",
+          "image_path": "images/img-000114.jpg",
+          "distance": 0.7026194334030151
+        },
+        {
+          "image_id": "img-001597",
+          "image_path": "images/img-001597.jpg",
+          "distance": 0.7026407718658447
+        },
+        {
+          "image_id": "img-000146",
+          "image_path": "images/img-000146.jpg",
+          "distance": 0.7072902917861938
+        },
+        {
+          "image_path": "images/img-000439.jpg",
+          "image_id": "img-000439",
+          "distance": 0.7098550796508789
+        },
+        {
+          "image_path": "images/img-000971.jpg",
+          "image_id": "img-000971",
+          "distance": 0.7111631035804749
+        },
+        {
+          "image_path": "images/img-001779.jpg",
+          "image_id": "img-001779",
+          "distance": 0.7133646011352539
+        }
+      ]
+    },
+    {
+      "query_id": "q-0005",
+      "image_id": "img-000501",
+      "text": "A black dog is swimming in green water with something in its mouth .",
+      "rank": null,
+      "retrieved": [
+        {
+          "image_path": "images/img-001095.jpg",
+          "image_id": "img-001095",
+          "distance": 0.6624445915222168
+        },
+        {
+          "image_id": "img-000275",
+          "image_path": "images/img-000275.jpg",
+          "distance": 0.6633149981498718
+        },
+        {
+          "image_id": "img-000515",
+          "image_path": "images/img-000515.jpg",
+          "distance": 0.6651347279548645
+        },
+        {
+          "image_id": "img-000769",
+          "image_path": "images/img-000769.jpg",
+          "distance": 0.6670961380004883
+        },
+        {
+          "image_id": "img-001008",
+          "image_path": "images/img-001008.jpg",
+          "distance": 0.6672074794769287
+        },
+        {
+          "image_id": "img-001693",
+          "image_path": "images/img-001693.jpg",
+          "distance": 0.6672755479812622
+        },
+        {
+          "image_path": "images/img-000326.jpg",
+          "image_id": "img-000326",
+          "distance": 0.6701663732528687
+        },
+        {
+          "image_id": "img-001819",
+          "image_path": "images/img-001819.jpg",
+          "distance": 0.6705517768859863
+        },
+        {
+          "image_path": "images/img-000319.jpg",
+          "image_id": "img-000319",
+          "distance": 0.6748635172843933
+        },
+        {
+          "image_path": "images/img-000747.jpg",
+          "image_id": "img-000747",
+          "distance": 0.6749544739723206
+        }
+      ]
+    },
+    {
+      "query_id": "q-0006",
+      "image_id": "img-000457",
+      "text": "A child rides on a man 's shoulders .",
+      "rank": 7,
+      "retrieved": [
+        {
+          "image_id": "img-000335",
+          "image_path": "images/img-000335.jpg",
+          "distance": 0.6749621629714966
+        },
+        {
+          "image_path": "images/img-001091.jpg",
+          "image_id": "img-001091",
+          "distance": 0.6773166656494141
+        },
+        {
+          "image_path": "images/img-000312.jpg",
+          "image_id": "img-000312",
+          "distance": 0.6892759799957275
+        },
+        {
+          "image_id": "img-000823",
+          "image_path": "images/img-000823.jpg",
+          "distance": 0.6902017593383789
+        },
+        {
+          "image_id": "img-001466",
+          "image_path": "images/img-001466.jpg",
+          "distance": 0.6950458288192749
+        },
+        {
+          "image_path": "images/img-000779.jpg",
+          "image_id": "img-000779",
+          "distance": 0.6979391574859619
+        },
+        {
+          "image_path": "images/img-000457.jpg",
+          "image_id": "img-000457",
+          "distance": 0.6981576681137085
+        },
+        {
+          "image_id": "img-000545",
+          "image_path": "images/img-000545.jpg",
+          "distance": 0.7022762298583984
+        },
+        {
+          "image_path": "images/img-000846.jpg",
+          "image_id": "img-000846",
+          "distance": 0.7118008732795715
+        },
+        {
+          "image_path": "images/img-000060.jpg",
+          "image_id": "img-000060",
+          "distance": 0.7142702341079712
+        }
+      ]
+    },
+    {
+      "query_id": "q-0007",
+      "image_id": "img-000285",
+      "text": "A boy and a girl are standing on a river bank facing the water .",
+      "rank": 1,
+      "retrieved": [
+        {
+          "image_path": "images/img-000285.jpg",
+          "image_id": "img-000285",
+          "distance": 0.6531844139099121
+        },
+        {
+          "image_id": "img-000016",
+          "image_path": "images/img-000016.jpg",
+          "distance": 0.6779791116714478
+        },
+        {
+          "image_id": "img-000684",
+          "image_path": "images/img-000684.jpg",
+          "distance": 0.686756432056427
+        },
+        {
+          "image_id": "img-000572",
+          "image_path": "images/img-000572.jpg",
+          "distance": 0.6965116858482361
+        },
+        {
+          "image_path": "images/img-001011.jpg",
+          "image_id": "img-001011",
+          "distance": 0.6973201036453247
+        },
+        {
+          "image_id": "img-001507",
+          "image_path": "images/img-001507.jpg",
+          "distance": 0.6998848915100098
+        },
+        {
+          "image_path": "images/img-001410.jpg",
+          "image_id": "img-001410",
+          "distance": 0.701288640499115
+        },
+        {
+          "image_path": "images/img-000820.jpg",
+          "image_id": "img-000820",
+          "distance": 0.7017587423324585
+        },
+        {
+          "image_path": "images/img-000367.jpg",
+          "image_id": "img-000367",
+          "distance": 0.7105503082275391
+        },
+        {
+          "image_path": "images/img-000949.jpg",
+          "image_id": "img-000949",
+          "distance": 0.7133677005767822
+        }
+      ]
+    },
+    {
+      "query_id": "q-0008",
+      "image_id": "img-001508",
+      "text": "A brown dog looks up while a person 's fingers are in its mouth .",
+      "rank": 1,
+      "retrieved": [
+        {
+          "image_path": "images/img-001508.jpg",
+          "image_id": "img-001508",
+          "distance": 0.6690897941589355
+        },
+        {
+          "image_id": "img-001515",
+          "image_path": "images/img-001515.jpg",
+          "distance": 0.6799898147583008
+        },
+        {
+          "image_id": "img-000514",
+          "image_path": "images/img-000514.jpg",
+          "distance": 0.6926894187927246
+        },
+        {
+          "image_id": "img-000852",
+          "image_path": "images/img-000852.jpg",
+          "distance": 0.6954227089881897
+        },
+        {
+          "image_path": "images/img-000363.jpg",
+          "image_id": "img-000363",
+          "distance": 0.6954782605171204
+        },
+        {
+          "image_id": "img-001409",
+          "image_path": "images/img-001409.jpg",
+          "distance": 0.6992202401161194
+        },
+        {
+          "image_path": "images/img-001317.jpg",
+          "image_id": "img-001317",
+          "distance": 0.6994291543960571
+        },
+        {
+          "image_id": "img-000903",
+          "image_path": "images/img-000903.jpg",
+          "distance": 0.6996666193008423
+        },
+        {
+          "image_id": "img-001868",
+          "image_path": "images/img-001868.jpg",
+          "distance": 0.7004989385604858
+        },
+        {
+          "image_id": "img-001533",
+          "image_path": "images/img-001533.jpg",
+          "distance": 0.7013498544692993
+        }
+      ]
+    },
+    {
+      "query_id": "q-0009",
+      "image_id": "img-000209",
+      "text": "A little girl in a colorful dress is playing with a blue and red soccer ball .",
+      "rank": 1,
+      "retrieved": [
+        {
+          "image_path": "images/img-000209.jpg",
+          "image_id": "img-000209",
+          "distance": 0.6162208318710327
+        },
+        {
+          "image_path": "images/img-001839.jpg",
+          "image_id": "img-001839",
+          "distance": 0.6426196694374084
+        },
+        {
+          "image_id": "img-001634",
+          "image_path": "images/img-001634.jpg",
+          "distance": 0.6957390904426575
+        },
+        {
+          "image_id": "img-000952",
+          "image_path": "images/img-000952.jpg",
+          "distance": 0.6962838172912598
+        },
+        {
+          "image_path": "images/img-001048.jpg",
+          "image_id": "img-001048",
+          "distance": 0.6992714405059814
+        },
+        {
+          "image_id": "img-001343",
+          "image_path": "images/img-001343.jpg",
+          "distance": 0.7000769376754761
+        },
+        {
+          "image_path": "images/img-001948.jpg",
+          "image_id": "img-001948",
+          "distance": 0.7025222778320312
+        },
+        {
+          "image_id": "img-000882",
+          "image_path": "images/img-000882.jpg",
+          "distance": 0.7031663656234741
+        },
+        {
+          "image_path": "images/img-000175.jpg",
+          "image_id": "img-000175",
+          "distance": 0.7035902738571167
+        },
+        {
+          "image_path": "images/img-001462.jpg",
+          "image_id": "img-001462",
+          "distance": 0.7046898603439331
+        }
+      ]
+    },
+    {
+      "query_id": "q-0010",
+      "image_id": "img-001385",
+      "text": "A backpacker hiking near a snowy mountain .",
+      "rank": 5,
+      "retrieved": [
+        {
+          "image_path": "images/img-001989.jpg",
+          "image_id": "img-001989",
+          "distance": 0.6796088218688965
+        },
+        {
+          "image_path": "images/img-000872.jpg",
+          "image_id": "img-000872",
+          "distance": 0.6927902698516846
+        },
+        {
+          "image_id": "img-000517",
+          "image_path": "images/img-000517.jpg",
+          "distance": 0.6955748796463013
+        },
+        {
+          "image_id": "img-000049",
+          "image_path": "images/img-000049.jpg",
+          "distance": 0.696915328502655
+        },
+        {
+          "image_path": "images/img-001385.jpg",
+          "image_id": "img-001385",
+          "distance": 0.6975632905960083
+        },
+        {
+          "image_path": "images/img-000998.jpg",
+          "image_id": "img-000998",
+          "distance": 0.698245644569397
+        },
+        {
+          "image_path": "images/img-001400.jpg",
+          "image_id": "img-001400",
+          "distance": 0.7038827538490295
+        },
+        {
+          "image_path": "images/img-001384.jpg",
+          "image_id": "img-001384",
+          "distance": 0.704660177230835
+        },
+        {
+          "image_path": "images/img-001969.jpg",
+          "image_id": "img-001969",
+          "distance": 0.7046736478805542
+        },
+        {
+          "image_path": "images/img-000071.jpg",
+          "image_id": "img-000071",
+          "distance": 0.706223726272583
+        }
+      ]
+    },
+    {
+      "query_id": "q-0011",
+      "image_id": "img-001516",
+      "text": "A brown dog walks towards another animal hiding in the grass .",
+      "rank": 1,
+      "retrieved": [
+        {
+          "image_path": "images/img-001516.jpg",
+          "image_id": "img-001516",
+          "distance": 0.649278998374939
+        },
+        {
+          "image_id": "img-001889",
+          "image_path": "images/img-001889.jpg",
+          "distance": 0.6648193597793579
+        },
+        {
+          "image_id": "img-000892",
+          "image_path": "images/img-000892.jpg",
+          "distance": 0.6694554686546326
+        },
+        {
+          "image_path": "images/img-001515.jpg",
+          "image_id": "img-001515",
+          "distance": 0.6706019639968872
+        },
+        {
+          "image_id": "img-001961",
+          "image_path": "images/img-001961.jpg",
+          "distance": 0.6726958751678467
+        },
+        {
+          "image_path": "images/img-001419.jpg",
+          "image_id": "img-001419",
+          "distance": 0.6727832555770874
+        },
+        {
+          "image_id": "img-000346",
+          "image_path": "images/img-000346.jpg",
+          "distance": 0.6751065254211426
+        },
+        {
+          "image_path": "images/img-001859.jpg",
+          "image_id": "img-001859",
+          "distance": 0.6778914928436279
+        },
+        {
+          "image_path": "images/img-000625.jpg",
+          "image_id": "img-000625",
+          "distance": 0.6787946224212646
+        },
+        {
+          "image_id": "img-000571",
+          "image_path": "images/img-000571.jpg",
+          "distance": 0.6797683238983154
+        }
+      ]
+    },
+    {
+      "query_id": "q-0012",
+      "image_id": "img-001827",
+      "text": "A white dog runs past another dog who is standing beside some patio furniture .",
+      "rank": 1,
+      "retrieved": [
+        {
+          "image_path": "images/img-001827.jpg",
+          "image_id": "img-001827",
+          "distance": 0.6782994270324707
+        },
+        {
+          "image_id": "img-001404",
+          "image_path": "images/img-001404.jpg",
+          "distance": 0.6894220113754272
+        },
+        {
+          "image_id": "img-001708",
+          "image_path": "images/img-001708.jpg",
+          "distance": 0.6943464875221252
+        },
+        {
+          "image_id": "img-001503",
+          "image_path": "images/img-001503.jpg",
+          "distance": 0.6944699287414551
+        },
+        {
+          "image_path": "images/img-000660.jpg",
+          "image_id": "img-000660",
+          "distance": 0.7011148929595947
+        },
+        {
+          "image_id": "img-001924",
+          "image_path": "images/img-001924.jpg",
+          "distance": 0.704319953918457
+        },
+        {
+          "image_path": "images/img-001483.jpg",
+          "image_id": "img-001483",
+          "distance": 0.7089377641677856
+        },
+        {
+          "image_path": "images/img-001116.jpg",
+          "image_id": "img-001116",
+          "distance": 0.7091398239135742
+        },
+        {
+          "image_id": "img-001308",
+          "image_path": "images/img-001308.jpg",
+          "distance": 0.7110677361488342
+        },
+        {
+          "image_id": "img-001944",
+          "image_path": "images/img-001944.jpg",
+          "distance": 0.713132381439209
+        }
+      ]
+    },
+    {
+      "query_id": "q-0013",
+      "image_id": "img-001116",
+      "text": "Two white dogs are running on the grass .",
+      "rank": 1,
+      "retrieved": [
+        {
+          "image_id": "img-001116",
+          "image_path": "images/img-001116.jpg",
+          "distance": 0.6505064964294434
+        },
+        {
+          "image_path": "images/img-001827.jpg",
+          "image_id": "img-001827",
+          "distance": 0.6721045970916748
+        },
+        {
+          "image_path": "images/img-001526.jpg",
+          "image_id": "img-001526",
+          "distance": 0.6754860877990723
+        },
+        {
+          "image_id": "img-001093",
+          "image_path": "images/img-001093.jpg",
+          "distance": 0.6766725182533264
+        },
+        {
+          "image_path": "images/img-000923.jpg",
+          "image_id": "img-000923",
+          "distance": 0.6776376962661743
+        },
+        {
+          "image_path": "images/img-000738.jpg",
+          "image_id": "img-000738",
+          "distance": 0.6807432174682617
+        },
+        {
+          "image_path": "images/img-001702.jpg",
+          "image_id": "img-001702",
+          "distance": 0.6826727390289307
+        },
+        {
+          "image_id": "img-001944",
+          "image_path": "images/img-001944.jpg",
+          "distance": 0.6846731901168823
+        },
+        {
+          "image_path": "images/img-001404.jpg",
+          "image_id": "img-001404",
+          "distance": 0.6851851940155029
+        },
+        {
+          "image_path": "images/img-001816.jpg",
+          "image_id": "img-001816",
+          "distance": 0.6857659816741943
+        }
+      ]
+    },
+    {
+      "query_id": "q-0014",
+      "image_id": "img-000178",
+      "text": "A group of climbers begin up a sheer rock face .",
+      "rank": null,
+      "retrieved": [
+        {
+          "image_id": "img-000012",
+          "image_path": "images/img-000012.jpg",
+          "distance": 0.6481724381446838
+        },
+        {
+          "image_id": "img-000810",
+          "image_path": "images/img-000810.jpg",
+          "distance": 0.676434338092804
+        },
+        {
+          "image_path": "images/img-001061.jpg",
+          "image_id": "img-001061",
+          "distance": 0.6798897981643677
+        },
+        {
+          "image_path": "images/img-000462.jpg",
+          "image_id": "img-000462",
+          "distance": 0.6828805804252625
+        },
+        {
+          "image_id": "img-001332",
+          "image_path": "images/img-001332.jpg",
+          "distance": 0.6829015016555786
+        },
+        {
+          "image_id": "img-001627",
+          "image_path": "images/img-001627.jpg",
+          "distance": 0.6861715316772461
+        },
+        {
+          "image_path": "images/img-000782.jpg",
+          "image_id": "img-000782",
+          "distance": 0.6914567351341248
+        },
+        {
+          "image_id": "img-000333",
+          "image_path": "images/img-000333.jpg",
+          "distance": 0.6954419016838074
+        },
+        {
+          "image_path": "images/img-000400.jpg",
+          "image_id": "img-000400",
+          "distance": 0.6957806348800659
+        },
+        {
+          "image_id": "img-001321",
+          "image_path": "images/img-001321.jpg",
+          "distance": 0.6969398260116577
+        }
+      ]
+    },
+    {
+      "query_id": "q-0015",
+      "image_id": "img-001209",
+      "text": "Two children in the woods near a pond .",
+      "rank": 5,
+      "retrieved": [
+        {
+          "image_path": "images/img-000549.jpg",
+          "image_id": "img-000549",
+          "distance": 0.6802626252174377
+        },
+        {
+          "image_path": "images/img-000285.jpg",
+          "image_id": "img-000285",
+          "distance": 0.6840136647224426
+        },
+        {
+          "image_id": "img-000612",
+          "image_path": "images/img-000612.jpg",
+          "distance": 0.6874130964279175
+        },
+        {
+          "image_path": "images/img-001906.jpg",
+          "image_id": "img-001906",
+          "distance": 0.6896299123764038
+        },
+        {
+          "image_path": "images/img-001209.jpg",
+          "image_id": "img-001209",
+          "distance": 0.6929305791854858
+        },
+        {
+          "image_id": "img-000820",
+          "image_path": "images/img-000820.jpg",
+          "distance": 0.6998659372329712
+        },
+        {
+          "image_path": "images/img-000016.jpg",
+          "image_id": "img-000016",
+          "distance": 0.7044929265975952
+        },
+        {
+          "image_id": "img-001739",
+          "image_path": "images/img-001739.jpg",
+          "distance": 0.7124513387680054
+        },
+        {
+          "image_id": "img-000399",
+          "image_path": "images/img-000399.jpg",
+          "distance": 0.7141452431678772
+        },
+        {
+          "image_path": "images/img-001568.jpg",
+          "image_id": "img-001568",
+          "distance": 0.7145544290542603
+        }
+      ]
+    },
+    {
+      "query_id": "q-0016",
+      "image_id": "img-000864",
+      "text": "A person in a black and red jacket walking up a snowy mountain .",
+      "rank": 1,
+      "retrieved": [
+        {
+          "image_id": "img-000864",
+          "image_path": "images/img-000864.jpg",
+          "distance": 0.6665827035903931
+        },
+        {
+          "image_id": "img-000225",
+          "image_path": "images/img-000225.jpg",
+          "distance": 0.6701195240020752
+        },
+        {
+          "image_path": "images/img-000389.jpg",
+          "image_id": "img-000389",
+          "distance": 0.676914632320404
+        },
+        {
+          "image_id": "img-001385",
+          "image_path": "images/img-001385.jpg",
+          "distance": 0.6773983240127563
+        },
+        {
+          "image_path": "images/img-000644.jpg",
+          "image_id": "img-000644",
+          "distance": 0.6840904951095581
+        },
+        {
+          "image_id": "img-000872",
+          "image_path": "images/img-000872.jpg",
+          "distance": 0.6845550537109375
+        },
+        {
+          "image_id": "img-001294",
+          "image_path": "images/img-001294.jpg",
+          "distance": 0.6861884593963623
+        },
+        {
+          "image_id": "img-000517",
+          "image_path": "images/img-000517.jpg",
+          "distance": 0.6866329908370972
+        },
+        {
+          "image_path": "images/img-001384.jpg",
+          "image_id": "img-001384",
+          "distance": 0.6875893473625183
+        },
+        {
+          "image_id": "img-000049",
+          "image_path": "images/img-000049.jpg",
+          "distance": 0.689461350440979
+        }
+      ]
+    },
+    {
+      "query_id": "q-0017",
+      "image_id": "img-000065",
+      "text": "A closeup of a white dog that is laying its head on its paws .",
+      "rank": 1,
+      "retrieved": [
+        {
+          "image_path": "images/img-000065.jpg",
+          "image_id": "img-000065",
+          "distance": 0.658613383769989
+        },
+        {
+          "image_path": "images/img-000788.jpg",
+          "image_id": "img-000788",
+          "distance": 0.6947575211524963
+        },
+        {
+          "image_path": "images/img-000514.jpg",
+          "image_id": "img-000514",
+          "distance": 0.6953339576721191
+        },
+        {
+          "image_path": "images/img-001463.jpg",
+          "image_id": "img-001463",
+          "distance": 0.6997147798538208
+        },
+        {
+          "image_path": "images/img-000960.jpg",
+          "image_id": "img-000960",
+          "distance": 0.7048124074935913
+        },
+        {
+          "image_id": "img-000397",
+          "image_path": "images/img-000397.jpg",
+          "distance": 0.7107951641082764
+        },
+        {
+          "image_id": "img-001526",
+          "image_path": "images/img-001526.jpg",
+          "distance": 0.7131538391113281
+        },
+        {
+          "image_path": "images/img-001941.jpg",
+          "image_id": "img-001941",
+          "distance": 0.715488076210022
+        },
+        {
+          "image_id": "img-001223",
+          "image_path": "images/img-001223.jpg",
+          "distance": 0.7163676023483276
+        },
+        {
+          "image_path": "images/img-001903.jpg",
+          "image_id": "img-001903",
+          "distance": 0.7207117080688477
+        }
+      ]
+    },
+    {
+      "query_id": "q-0018",
+      "image_id": "img-000061",
+      "text": "A little boy sticks his tongue out for the camera . Another boy looks on .",
+      "rank": null,
+      "retrieved": [
+        {
+          "image_path": "images/img-000008.jpg",
+          "image_id": "img-000008",
+          "distance": 0.6859704852104187
+        },
+        {
+          "image_path": "images/img-001227.jpg",
+          "image_id": "img-001227",
+          "distance": 0.7053416967391968
+        },
+        {
+          "image_path": "images/img-000609.jpg",
+          "image_id": "img-000609",
+          "distance": 0.7097845077514648
+        },
+        {
+          "image_path": "images/img-000410.jpg",
+          "image_id": "img-000410",
+          "distance": 0.7137273550033569
+        },
+        {
+          "image_id": "img-001744",
+          "image_path": "images/img-001744.jpg",
+          "distance": 0.7139180898666382
+        },
+        {
+          "image_path": "images/img-001698.jpg",
+          "image_id": "img-001698",
+          "distance": 0.7144653797149658
+        },
+        {
+          "image_id": "img-001500",
+          "image_path": "images/img-001500.jpg",
+          "distance": 0.7153244614601135
+        },
+        {
+          "image_id": "img-001364",
+          "image_path": "images/img-001364.jpg",
+          "distance": 0.7192295789718628
+        },
+        {
+          "image_path": "images/img-001651.jpg",
+          "image_id": "img-001651",
+          "distance": 0.719256579875946
+        },
+        {
+          "image_id": "img-000182",
+          "image_path": "images/img-000182.jpg",
+          "distance": 0.7207133769989014
+        }
+      ]
+    },
+    {
+      "query_id": "q-0019",
+      "image_id": "img-000191",
+      "text": "A person in a blue shirt sits behind two people sitting on a wood bench .",
+      "rank": null,
+      "retrieved": [
+        {
+          "image_id": "img-000221",
+          "image_path": "images/img-000221.jpg",
+          "distance": 0.6778154373168945
+        },
+        {
+          "image_id": "img-000844",
+          "image_path": "images/img-000844.jpg",
+          "distance": 0.6876411437988281
+        },
+        {
+          "image_id": "img-000146",
+          "image_path": "images/img-000146.jpg",
+          "distance": 0.6946282386779785
+        },
+        {
+          "image_path": "images/img-000373.jpg",
+          "image_id": "img-000373",
+          "distance": 0.6953301429748535
+        },
+        {
+          "image_path": "images/img-000017.jpg",
+          "image_id": "img-000017",
+          "distance": 0.6953513622283936
+        },
+        {
+          "image_id": "img-000064",
+          "image_path": "images/img-000064.jpg",
+          "distance": 0.6965649127960205
+        },
+        {
+          "image_id": "img-001927",
+          "image_path": "images/img-001927.jpg",
+          "distance": 0.6998193264007568
+        },
+        {
+          "image_path": "images/img-001752.jpg",
+          "image_id": "img-001752",
+          "distance": 0.7032866477966309
+        },
+        {
+          "image_id": "img-001871",
+          "image_path": "images/img-001871.jpg",
+          "distance": 0.7074666023254395
+        },
+        {
+          "image_id": "img-001438",
+          "image_path": "images/img-001438.jpg",
+          "distance": 0.7080157399177551
+        }
+      ]
+    },
+    {
+      "query_id": "q-0020",
+      "image_id": "img-000447",
+      "text": "A lady sitting down and someone with black shorts and shoes",
+      "rank": 4,
+      "retrieved": [
+        {
+          "image_id": "img-000017",
+          "image_path": "images/img-000017.jpg",
+          "distance": 0.6737225651741028
+        },
+        {
+          "image_path": "images/img-000221.jpg",
+          "image_id": "img-000221",
+          "distance": 0.6829711198806763
+        },
+        {
+          "image_path": "images/img-000373.jpg",
+          "image_id": "img-000373",
+          "distance": 0.6878209114074707
+        },
+        {
+          "image_path": "images/img-000447.jpg",
+          "image_id": "img-000447",
+          "distance": 0.698287844657898
+        },
+        {
+          "image_id": "img-000254",
+          "image_path": "images/img-000254.jpg",
+          "distance": 0.6992079019546509
+        },
+        {
+          "image_path": "images/img-000780.jpg",
+          "image_id": "img-000780",
+          "distance": 0.7010849118232727
+        },
+        {
+          "image_path": "images/img-000299.jpg",
+          "image_id": "img-000299",
+          "distance": 0.7037090063095093
+        },
+        {
+          "image_id": "img-001498",
+          "image_path": "images/img-001498.jpg",
+          "distance": 0.7040258646011353
+        },
+        {
+          "image_path": "images/img-001588.jpg",
+          "image_id": "img-001588",
+          "distance": 0.7067306041717529
+        },
+        {
+          "image_path": "images/img-000723.jpg",
+          "image_id": "img-000723",
+          "distance": 0.7073768377304077
+        }
+      ]
+    },
+    {
+      "query_id": "q-0021",
+      "image_id": "img-000476",
+      "text": "Kids running across the grass .",
+      "rank": 5,
+      "retrieved": [
+        {
+          "image_path": "images/img-001131.jpg",
+          "image_id": "img-001131",
+          "distance": 0.6826785802841187
+        },
+        {
+          "image_id": "img-000667",
+          "image_path": "images/img-000667.jpg",
+          "distance": 0.6957865953445435
+        },
+        {
+          "image_path": "images/img-001553.jpg",
+          "image_id": "img-001553",
+          "distance": 0.7034401893615723
+        },
+        {
+          "image_id": "img-000612",
+          "image_path": "images/img-000612.jpg",
+          "distance": 0.7046712636947632
+        },
+        {
+          "image_id": "img-000476",
+          "image_path": "images/img-000476.jpg",
+          "distance": 0.7056945562362671
+        },
+        {
+          "image_path": "images/img-001098.jpg",
+          "image_id": "img-001098",
+          "distance": 0.7071255445480347
+        },
+        {
+          "image_path": "images/img-001983.jpg",
+          "image_id": "img-001983",
+          "distance": 0.7101802825927734
+        },
+        {
+          "image_id": "img-000528",
+          "image_path": "images/img-000528.jpg",
+          "distance": 0.7105997800827026
+        },
+        {
+          "image_id": "img-000738",
+          "image_path": "images/img-000738.jpg",
+          "distance": 0.7133053541183472
+        },
+        {
+          "image_id": "img-001462",
+          "image_path": "images/img-001462.jpg",
+          "distance": 0.7136064767837524
+        }
+      ]
+    },
+    {
+      "query_id": "q-0022",
+      "image_id": "img-001034",
+      "text": "A dog on a green hillside .",
+      "rank": null,
+      "retrieved": [
+        {
+          "image_path": "images/img-000562.jpg",
+          "image_id": "img-000562",
+          "distance": 0.6821098327636719
+        },
+        {
+          "image_path": "images/img-000346.jpg",
+          "image_id": "img-000346",
+          "distance": 0.6853927969932556
+        },
+        {
+          "image_id": "img-000163",
+          "image_path": "images/img-000163.jpg",
+          "distance": 0.6905043125152588
+        },
+        {
+          "image_path": "images/img-001961.jpg",
+          "image_id": "img-001961",
+          "distance": 0.6921610832214355
+        },
+        {
+          "image_path": "images/img-001155.jpg",
+          "image_id": "img-001155",
+          "distance": 0.6951577067375183
+        },
+        {
+          "image_path": "images/img-000866.jpg",
+          "image_id": "img-000866",
+          "distance": 0.6963568925857544
+        },
+        {
+          "image_id": "img-001929",
+          "image_path": "images/img-001929.jpg",
+          "distance": 0.6998101472854614
+        },
+        {
+          "image_path": "images/img-000593.jpg",
+          "image_id": "img-000593",
+          "distance": 0.7001760005950928
+        },
+        {
+          "image_id": "img-001143",
+          "image_path": "images/img-001143.jpg",
+          "distance": 0.7020537853240967
+        },
+        {
+          "image_path": "images/img-000660.jpg",
+          "image_id": "img-000660",
+          "distance": 0.7041387557983398
+        }
+      ]
+    },
+    {
+      "query_id": "q-0023",
+      "image_id": "img-001232",
+      "text": "A group of boys pose for a picture .",
+      "rank": 1,
+      "retrieved": [
+        {
+          "image_path": "images/img-001232.jpg",
+          "image_id": "img-001232",
+          "distance": 0.6807563304901123
+        },
+        {
+          "image_id": "img-001502",
+          "image_path": "images/img-001502.jpg",
+          "distance": 0.6907830238342285
+        },
+        {
+          "image_path": "images/img-000925.jpg",
+          "image_id": "img-000925",
+          "distance": 0.7012436389923096
+        },
+        {
+          "image_path": "images/img-001145.jpg",
+          "image_id": "img-001145",
+          "distance": 0.705599308013916
+        },
+        {
+          "image_id": "img-001016",
+          "image_path": "images/img-001016.jpg",
+          "distance": 0.7209491729736328
+        },
+        {
+          "image_path": "images/img-000492.jpg",
+          "image_id": "img-000492",
+          "distance": 0.7252997756004333
+        },
+        {
+          "image_id": "img-001619",
+          "image_path": "images/img-001619.jpg",
+          "distance": 0.7262413501739502
+        },
+        {
+          "image_path": "images/img-001372.jpg",
+          "image_id": "img-001372",
+          "distance": 0.726259708404541
+        },
+        {
+          "image_id": "img-001561",
+          "image_path": "images/img-001561.jpg",
+          "distance": 0.7274727821350098
+        },
+        {
+          "image_id": "img-000609",
+          "image_path": "images/img-000609.jpg",
+          "distance": 0.7287600040435791
+        }
+      ]
+    },
+    {
+      "query_id": "q-0024",
+      "image_id": "img-000054",
+      "text": "A crowd watching air balloons at night .",
+      "rank": 1,
+      "retrieved": [
+        {
+          "image_id": "img-000054",
+          "image_path": "images/img-000054.jpg",
+          "distance": 0.6545728445053101
+        },
+        {
+          "image_id": "img-001650",
+          "image_path": "images/img-001650.jpg",
+          "distance": 0.7220476865768433
+        },
+        {
+          "image_path": "images/img-000592.jpg",
+          "image_id": "img-000592",
+          "distance": 0.7335320711135864
+        },
+        {
+          "image_id": "img-001978",
+          "image_path": "images/img-001978.jpg",
+          "distance": 0.7412203550338745
+        },
+        {
+          "image_id": "img-000583",
+          "image_path": "images/img-000583.jpg",
+          "distance": 0.7505307197570801
+        },
+        {
+          "image_id": "img-000643",
+          "image_path": "images/img-000643.jpg",
+          "distance": 0.7552805542945862
+        },
+        {
+          "image_id": "img-000895",
+          "image_path": "images/img-000895.jpg",
+          "distance": 0.7594141960144043
+        },
+        {
+          "image_id": "img-000730",
+          "image_path": "images/img-000730.jpg",
+          "distance": 0.7601120471954346
+        },
+        {
+          "image_path": "images/img-000228.jpg",
+          "image_id": "img-000228",
+          "distance": 0.7622733116149902
+        },
+        {
+          "image_path": "images/img-000128.jpg",
+          "image_id": "img-000128",
+          "distance": 0.7627035975456238
+        }
+      ]
+    },
+    {
+      "query_id": "q-0025",
+      "image_id": "img-001149",
+      "text": "A city street with two ladies that have shopping bags in their hands with a crowd behind them .",
+      "rank": 7,
+      "retrieved": [
+        {
+          "image_path": "images/img-001928.jpg",
+          "image_id": "img-001928",
+          "distance": 0.6932436227798462
+        },
+        {
+          "image_path": "images/img-001633.jpg",
+          "image_id": "img-001633",
+          "distance": 0.6964768171310425
+        },
+        {
+          "image_path": "images/img-001356.jpg",
+          "image_id": "img-001356",
+          "distance": 0.702863335609436
+        },
+        {
+          "image_id": "img-000539",
+          "image_path": "images/img-000539.jpg",
+          "distance": 0.7046650648117065
+        },
+        {
+          "image_path": "images/img-000157.jpg",
+          "image_id": "img-000157",
+          "distance": 0.705731213092804
+        },
+        {
+          "image_id": "img-001638",
+          "image_path": "images/img-001638.jpg",
+          "distance": 0.7095621824264526
+        },
+        {
+          "image_path": "images/img-001149.jpg",
+          "image_id": "img-001149",
+          "distance": 0.712971568107605
+        },
+        {
+          "image_id": "img-001728",
+          "image_path": "images/img-001728.jpg",
+          "distance": 0.7131319046020508
+        },
+        {
+          "image_id": "img-001686",
+          "image_path": "images/img-001686.jpg",
+          "distance": 0.7167075872421265
+        },
+        {
+          "image_path": "images/img-000701.jpg",
+          "image_id": "img-000701",
+          "distance": 0.7188711166381836
+        }
+      ]
+    },
+    {
+      "query_id": "q-0026",
+      "image_id": "img-000407",
+      "text": "A girl smiles as she runs across the white sandy beach in her swimsuit .",
+      "rank": 3,
+      "retrieved": [
+        {
+          "image_id": "img-000038",
+          "image_path": "images/img-000038.jpg",
+          "distance": 0.6940626502037048
+        },
+        {
+          "image_id": "img-000819",
+          "image_path": "images/img-000819.jpg",
+          "distance": 0.698046088218689
+        },
+        {
+          "image_path": "images/img-000407.jpg",
+          "image_id": "img-000407",
+          "distance": 0.7002043724060059
+        },
+        {
+          "image_id": "img-000594",
+          "image_path": "images/img-000594.jpg",
+          "distance": 0.7009557485580444
+        },
+        {
+          "image_path": "images/img-000343.jpg",
+          "image_id": "img-000343",
+          "distance": 0.7067592144012451
+        },
+        {
+          "image_id": "img-000141",
+          "image_path": "images/img-000141.jpg",
+          "distance": 0.7073816061019897
+        },
+        {
+          "image_id": "img-000277",
+          "image_path": "images/img-000277.jpg",
+          "distance": 0.7074882984161377
+        },
+        {
+          "image_path": "images/img-000084.jpg",
+          "image_id": "img-000084",
+          "distance": 0.7090579271316528
+        },
+        {
+          "image_id": "img-000109",
+          "image_path": "images/img-000109.jpg",
+          "distance": 0.7100188732147217
+        },
+        {
+          "image_id": "img-000411",
+          "image_path": "images/img-000411.jpg",
+          "distance": 0.7120054364204407
+        }
+      ]
+    },
+    {
+      "query_id": "q-0027",
+      "image_id": "img-001466",
+      "text": "A child wearing a yellow jacket is jumping down from a rock .",
+      "rank": 2,
+      "retrieved": [
+        {
+          "image_id": "img-000088",
+          "image_path": "images/img-000088.jpg",
+          "distance": 0.6673073768615723
+        },
+        {
+          "image_id": "img-001466",
+          "image_path": "images/img-001466.jpg",
+          "distance": 0.6707461476325989
+        },
+        {
+          "image_path": "images/img-000702.jpg",
+          "image_id": "img-000702",
+          "distance": 0.675395131111145
+        },
+        {
+          "image_id": "img-000411",
+          "image_path": "images/img-000411.jpg",
+          "distance": 0.6754180192947388
+        },
+        {
+          "image_path": "images/img-000260.jpg",
+          "image_id": "img-000260",
+          "distance": 0.6837234497070312
+        },
+        {
+          "image_path": "images/img-001813.jpg",
+          "image_id": "img-001813",
+          "distance": 0.687602162361145
+        },
+        {
+          "image_id": "img-001213",
+          "image_path": "images/img-001213.jpg",
+          "distance": 0.6901379823684692
+        },
+        {
+          "image_id": "img-000145",
+          "image_path": "images/img-000145.jpg",
+          "distance": 0.6908619403839111
+        },
+        {
+          "image_path": "images/img-001333.jpg",
+          "image_id": "img-001333",
+          "distance": 0.6917989253997803
+        },
+        {
+          "image_id": "img-000950",
+          "image_path": "images/img-000950.jpg",
+          "distance": 0.6923040151596069
+        }
+      ]
+    },
+    {
+      "query_id": "q-0028",
+      "image_id": "img-001330",
+      "text": "A Louis Vuitton store window at night .",
+      "rank": 1,
+      "retrieved": [
+        {
+          "image_path": "images/img-001330.jpg",
+          "image_id": "img-001330",
+          "distance": 0.6809887886047363
+        },
+        {
+          "image_id": "img-000318",
+          "image_path": "images/img-000318.jpg",
+          "distance": 0.7585031390190125
+        },
+        {
+          "image_id": "img-000355",
+          "image_path": "images/img-000355.jpg",
+          "distance": 0.7698519825935364
+        },
+        {
+          "image_path": "images/img-000758.jpg",
+          "image_id": "img-000758",
+          "distance": 0.7711378335952759
+        },
+        {
+          "image_path": "images/img-000365.jpg",
+          "image_id": "img-000365",
+          "distance": 0.7747938632965088
+        },
+        {
+          "image_path": "images/img-001302.jpg",
+          "image_id": "img-001302",
+          "distance": 0.7748947739601135
+        },
+        {
+          "image_path": "images/img-000749.jpg",
+          "image_id": "img-000749",
+          "distance": 0.7762353420257568
+        },
+        {
+          "image_path": "images/img-001728.jpg",
+          "image_id": "img-001728",
+          "distance": 0.7865583896636963
+        },
+        {
+          "image_path": "images/img-001396.jpg",
+          "image_id": "img-001396",
+          "distance": 0.78661048412323
+        },
+        {
+          "image_id": "img-000967",
+          "image_path": "images/img-000967.jpg",
+          "distance": 0.7896643280982971
+        }
+      ]
+    },
+    {
+      "query_id": "q-0029",
+      "image_id": "img-001436",
+      "text": "A woman is looking down and wearing a white hair piece that looks like a wedding veil .",
+      "rank": 1,
+      "retrieved": [
+        {
+          "image_id": "img-001436",
+          "image_path": "images/img-001436.jpg",
+          "distance": 0.6673003435134888
+        },
+        {
+          "image_id": "img-001498",
+          "image_path": "images/img-001498.jpg",
+          "distance": 0.7098586559295654
+        },
+        {
+          "image_id": "img-001504",
+          "image_path": "images/img-001504.jpg",
+          "distance": 0.7205120325088501
+        },
+        {
+          "image_path": "images/img-001438.jpg",
+          "image_id": "img-001438",
+          "distance": 0.7216485738754272
+        },
+        {
+          "image_id": "img-001678",
+          "image_path": "images/img-001678.jpg",
+          "distance": 0.7233962416648865
+        },
+        {
+          "image_path": "images/img-001314.jpg",
+          "image_id": "img-001314",
+          "distance": 0.7275299429893494
+        },
+        {
+          "image_id": "img-000241",
+          "image_path": "images/img-000241.jpg",
+          "distance": 0.7298409938812256
+        },
+        {
+          "image_id": "img-001881",
+          "image_path": "images/img-001881.jpg",
+          "distance": 0.730884850025177
+        },
+        {
+          "image_id": "img-000017",
+          "image_path": "images/img-000017.jpg",
+          "distance": 0.7318328619003296
+        },
+        {
+          "image_path": "images/img-000627.jpg",
+          "image_id": "img-000627",
+          "distance": 0.732766330242157
+        }
+      ]
+    },
+    {
+      "query_id": "q-0030",
+      "image_id": "img-000859",
+      "text": "A child doing gymnastics",
+      "rank": 1,
+      "retrieved": [
+        {
+          "image_path": "images/img-000859.jpg",
+          "image_id": "img-000859",
+          "distance": 0.6661162376403809
+        },
+        {
+          "image_id": "img-000906",
+          "image_path": "images/img-000906.jpg",
+          "distance": 0.6675319075584412
+        },
+        {
+          "image_path": "images/img-000556.jpg",
+          "image_id": "img-000556",
+          "distance": 0.6704121828079224
+        },
+        {
+          "image_path": "images/img-000436.jpg",
+          "image_id": "img-000436",
+          "distance": 0.6766504049301147
+        },
+        {
+          "image_id": "img-001647",
+          "image_path": "images/img-001647.jpg",
+          "distance": 0.6783549189567566
+        },
+        {
+          "image_id": "img-000942",
+          "image_path": "images/img-000942.jpg",
+          "distance": 0.6783656477928162
+        },
+        {
+          "image_id": "img-000126",
+          "image_path": "images/img-000126.jpg",
+          "distance": 0.6808948516845703
+        },
+        {
+          "image_path": "images/img-001231.jpg",
+          "image_id": "img-001231",
+          "distance": 0.6847271919250488
+        },
+        {
+          "image_path": "images/img-001124.jpg",
+          "image_id": "img-001124",
+          "distance": 0.6857192516326904
+        },
+        {
+          "image_id": "img-000909",
+          "image_path": "images/img-000909.jpg",
+          "distance": 0.688332200050354
+        }
+      ]
+    },
+    {
+      "query_id": "q-0031",
+      "image_id": "img-000451",
+      "text": "A man holding a fish .",
+      "rank": 2,
+      "retrieved": [
+        {
+          "image_path": "images/img-001364.jpg",
+          "image_id": "img-001364",
+          "distance": 0.7139938473701477
+        },
+        {
+          "image_id": "img-000451",
+          "image_path": "images/img-000451.jpg",
+          "distance": 0.7219939231872559
+        },
+        {
+          "image_id": "img-001262",
+          "image_path": "images/img-001262.jpg",
+          "distance": 0.7233583331108093
+        },
+        {
+          "image_path": "images/img-000386.jpg",
+          "image_id": "img-000386",
+          "distance": 0.7250416278839111
+        },
+        {
+          "image_path": "images/img-001366.jpg",
+          "image_id": "img-001366",
+          "distance": 0.7270245552062988
+        },
+        {
+          "image_path": "images/img-000563.jpg",
+          "image_id": "img-000563",
+          "distance": 0.7279762625694275
+        },
+        {
+          "image_path": "images/img-000392.jpg",
+          "image_id": "img-000392",
+          "distance": 0.7282091975212097
+        },
+        {
+          "image_path": "images/img-000658.jpg",
+          "image_id": "img-000658",
+          "distance": 0.7319990396499634
+        },
+        {
+          "image_id": "img-001505",
+          "image_path": "images/img-001505.jpg",
+          "distance": 0.7324581146240234
+        },
+        {
+          "image_path": "images/img-000536.jpg",
+          "image_id": "img-000536",
+          "distance": 0.733368992805481
+        }
+      ]
+    },
+    {
+      "query_id": "q-0032",
+      "image_id": "img-000919",
+      "text": "A woman in a pink hat and a navy blue coat riding a bicycle .",
+      "rank": 1,
+      "retrieved": [
+        {
+          "image_path": "images/img-000919.jpg",
+          "image_id": "img-000919",
+          "distance": 0.6233105063438416
+        },
+        {
+          "image_id": "img-000948",
+          "image_path": "images/img-000948.jpg",
+          "distance": 0.632305920124054
+        },
+        {
+          "image_path": "images/img-000670.jpg",
+          "image_id": "img-000670",
+          "distance": 0.6505390405654907
+        },
+        {
+          "image_path": "images/img-000844.jpg",
+          "image_id": "img-000844",
+          "distance": 0.6648784279823303
+        },
+        {
+          "image_id": "img-000910",
+          "image_path": "images/img-000910.jpg",
+          "distance": 0.6678642630577087
+        },
+        {
+          "image_path": "images/img-001730.jpg",
+          "image_id": "img-001730",
+          "distance": 0.6853563785552979
+        },
+        {
+          "image_path": "images/img-001173.jpg",
+          "image_id": "img-001173",
+          "distance": 0.6866872906684875
+        },
+        {
+          "image_id": "img-000858",
+          "image_path": "images/img-000858.jpg",
+          "distance": 0.6878591179847717
+        },
+        {
+          "image_path": "images/img-000944.jpg",
+          "image_id": "img-000944",
+          "distance": 0.6895546317100525
+        },
+        {
+          "image_path": "images/img-000911.jpg",
+          "image_id": "img-000911",
+          "distance": 0.6896312832832336
+        }
+      ]
+    },
+    {
+      "query_id": "q-0033",
+      "image_id": "img-001206",
+      "text": "a boy runs through the grass .",
+      "rank": null,
+      "retrieved": [
+        {
+          "image_id": "img-001553",
+          "image_path": "images/img-001553.jpg",
+          "distance": 0.6643632650375366
+        },
+        {
+          "image_path": "images/img-001098.jpg",
+          "image_id": "img-001098",
+          "distance": 0.6643892526626587
+        },
+        {
+          "image_path": "images/img-001327.jpg",
+          "image_id": "img-001327",
+          "distance": 0.6794860363006592
+        },
+        {
+          "image_path": "images/img-001568.jpg",
+          "image_id": "img-001568",
+          "distance": 0.6810775995254517
+        },
+        {
+          "image_path": "images/img-001169.jpg",
+          "image_id": "img-001169",
+          "distance": 0.681227445602417
+        },
+        {
+          "image_id": "img-000533",
+          "image_path": "images/img-000533.jpg",
+          "distance": 0.6817793846130371
+        },
+        {
+          "image_id": "img-000276",
+          "image_path": "images/img-000276.jpg",
+          "distance": 0.685208797454834
+        },
+        {
+          "image_id": "img-001961",
+          "image_path": "images/img-001961.jpg",
+          "distance": 0.687274694442749
+        },
+        {
+          "image_id": "img-001131",
+          "image_path": "images/img-001131.jpg",
+          "distance": 0.6882599592208862
+        },
+        {
+          "image_path": "images/img-001462.jpg",
+          "image_id": "img-001462",
+          "distance": 0.6909247636795044
+        }
+      ]
+    },
+    {
+      "query_id": "q-0034",
+      "image_id": "img-000569",
+      "text": "A man maneuvers a motorcycle through a rocky stream .",
+      "rank": 3,
+      "retrieved": [
+        {
+          "image_id": "img-000957",
+          "image_path": "images/img-000957.jpg",
+          "distance": 0.6893543004989624
+        },
+        {
+          "image_path": "images/img-000459.jpg",
+          "image_id": "img-000459",
+          "distance": 0.6980369091033936
+        },
+        {
+          "image_path": "images/img-000569.jpg",
+          "image_id": "img-000569",
+          "distance": 0.7000410556793213
+        },
+        {
+          "image_id": "img-001613",
+          "image_path": "images/img-001613.jpg",
+          "distance": 0.7013880610466003
+        },
+        {
+          "image_id": "img-000795",
+          "image_path": "images/img-000795.jpg",
+          "distance": 0.7030824422836304
+        },
+        {
+          "image_path": "images/img-001247.jpg",
+          "image_id": "img-001247",
+          "distance": 0.7052274942398071
+        },
+        {
+          "image_path": "images/img-001958.jpg",
+          "image_id": "img-001958",
+          "distance": 0.7061028480529785
+        },
+        {
+          "image_id": "img-000677",
+          "image_path": "images/img-000677.jpg",
+          "distance": 0.708815336227417
+        },
+        {
+          "image_path": "images/img-000486.jpg",
+          "image_id": "img-000486",
+          "distance": 0.711054265499115
+        },
+        {
+          "image_path": "images/img-000535.jpg",
+          "image_id": "img-000535",
+          "distance": 0.7115249633789062
+        }
+      ]
+    },
+    {
+      "query_id": "q-0035",
+      "image_id": "img-001657",
+      "text": "A black dog is completely off the ground while in a race .",
+      "rank": null,
+      "retrieved": [
+        {
+          "image_id": "img-001210",
+          "image_path": "images/img-001210.jpg",
+          "distance": 0.6438661813735962
+        },
+        {
+          "image_id": "img-001856",
+          "image_path": "images/img-001856.jpg",
+          "distance": 0.6474895477294922
+        },
+        {
+          "image_id": "img-001422",
+          "image_path": "images/img-001422.jpg",
+          "distance": 0.6485832929611206
+        },
+        {
+          "image_path": "images/img-001490.jpg",
+          "image_id": "img-001490",
+          "distance": 0.6508925557136536
+        },
+        {
+          "image_path": "images/img-001878.jpg",
+          "image_id": "img-001878",
+          "distance": 0.6520063877105713
+        },
+        {
+          "image_path": "images/img-001090.jpg",
+          "image_id": "img-001090",
+          "distance": 0.6520893573760986
+        },
+        {
+          "image_path": "images/img-001163.jpg",
+          "image_id": "img-001163",
+          "distance": 0.6597409248352051
+        },
+        {
+          "image_path": "images/img-000946.jpg",
+          "image_id": "img-000946",
+          "distance": 0.6609818935394287
+        },
+        {
+          "image_path": "images/img-001431.jpg",
+          "image_id": "img-001431",
+          "distance": 0.6621021628379822
+        },
+        {
+          "image_path": "images/img-001008.jpg",
+          "image_id": "img-001008",
+          "distance": 0.6632987260818481
+        }
+      ]
+    },
+    {
+      "query_id": "q-0036",
+      "image_id": "img-001780",
+      "text": "A football player is in action among other players .",
+      "rank": null,
+      "retrieved": [
+        {
+          "image_path": "images/img-000623.jpg",
+          "image_id": "img-000623",
+          "distance": 0.6814348697662354
+        },
+        {
+          "image_path": "images/img-001987.jpg",
+          "image_id": "img-001987",
+          "distance": 0.6843370199203491
+        },
+        {
+          "image_path": "images/img-001758.jpg",
+          "image_id": "img-001758",
+          "distance": 0.6903842687606812
+        },
+        {
+          "image_id": "img-001611",
+          "image_path": "images/img-001611.jpg",
+          "distance": 0.6905665993690491
+        },
+        {
+          "image_id": "img-000848",
+          "image_path": "images/img-000848.jpg",
+          "distance": 0.6952829360961914
+        },
+        {
+          "image_id": "img-001789",
+          "image_path": "images/img-001789.jpg",
+          "distance": 0.6957559585571289
+        },
+        {
+          "image_id": "img-001182",
+          "image_path": "images/img-001182.jpg",
+          "distance": 0.6962533593177795
+        },
+        {
+          "image_path": "images/img-000763.jpg",
+          "image_id": "img-000763",
+          "distance": 0.696457028388977
+        },
+        {
+          "image_path": "images/img-001653.jpg",
+          "image_id": "img-001653",
+          "distance": 0.6992323398590088
+        },
+        {
+          "image_id": "img-001036",
+          "image_path": "images/img-001036.jpg",
+          "distance": 0.6995344161987305
+        }
+      ]
+    },
+    {
+      "query_id": "q-0037",
+      "image_id": "img-000013",
+      "text": "A brown dog chases the water from a sprinkler on a lawn .",
+      "rank": 1,
+      "retrieved": [
+        {
+          "image_path": "images/img-000013.jpg",
+          "image_id": "img-000013",
+          "distance": 0.5912631750106812
+        },
+        {
+          "image_id": "img-000311",
+          "image_path": "images/img-000311.jpg",
+          "distance": 0.6051740050315857
+        },
+        {
+          "image_id": "img-001884",
+          "image_path": "images/img-001884.jpg",
+          "distance": 0.6571924686431885
+        },
+        {
+          "image_id": "img-000160",
+          "image_path": "images/img-000160.jpg",
+          "distance": 0.6665586829185486
+        },
+        {
+          "image_path": "images/img-000915.jpg",
+          "image_id": "img-000915",
+          "distance": 0.6753592491149902
+        },
+        {
+          "image_path": "images/img-000575.jpg",
+          "image_id": "img-000575",
+          "distance": 0.6759161949157715
+        },
+        {
+          "image_path": "images/img-001298.jpg",
+          "image_id": "img-001298",
+          "distance": 0.6784942746162415
+        },
+        {
+          "image_path": "images/img-001143.jpg",
+          "image_id": "img-001143",
+          "distance": 0.6785163879394531
+        },
+        {
+          "image_id": "img-000166",
+          "image_path": "images/img-000166.jpg",
+          "distance": 0.6801297664642334
+        },
+        {
+          "image_id": "img-000403",
+          "image_path": "images/img-000403.jpg",
+          "distance": 0.6832561492919922
+        }
+      ]
+    },
+    {
+      "query_id": "q-0038",
+      "image_id": "img-001554",
+      "text": "A brown dog is up to its knees in snow .",
+      "rank": null,
+      "retrieved": [
+        {
+          "image_path": "images/img-000951.jpg",
+          "image_id": "img-000951",
+          "distance": 0.6653746962547302
+        },
+        {
+          "image_path": "images/img-001518.jpg",
+          "image_id": "img-001518",
+          "distance": 0.6680340766906738
+        },
+        {
+          "image_id": "img-001104",
+          "image_path": "images/img-001104.jpg",
+          "distance": 0.6738109588623047
+        },
+        {
+          "image_path": "images/img-001121.jpg",
+          "image_id": "img-001121",
+          "distance": 0.6782475709915161
+        },
+        {
+          "image_path": "images/img-001533.jpg",
+          "image_id": "img-001533",
+          "distance": 0.6812186241149902
+        },
+        {
+          "image_id": "img-001663",
+          "image_path": "images/img-001663.jpg",
+          "distance": 0.6834248304367065
+        },
+        {
+          "image_id": "img-001903",
+          "image_path": "images/img-001903.jpg",
+          "distance": 0.6845452785491943
+        },
+        {
+          "image_id": "img-001065",
+          "image_path": "images/img-001065.jpg",
+          "distance": 0.6863918900489807
+        },
+        {
+          "image_path": "images/img-001699.jpg",
+          "image_id": "img-001699",
+          "distance": 0.6899394392967224
+        },
+        {
+          "image_path": "images/img-000873.jpg",
+          "image_id": "img-000873",
+          "distance": 0.6906816959381104
+        }
+      ]
+    },
+    {
+      "query_id": "q-0039",
+      "image_id": "img-001650",
+      "text": "A crowd of people is standing around a red , white and blue hot air balloon as it is readied to launch into the blue sky .",
+      "rank": 1,
+      "retrieved": [
+        {
+          "image_path": "images/img-001650.jpg",
+          "image_id": "img-001650",
+          "distance": 0.6416714191436768
+        },
+        {
+          "image_path": "images/img-000592.jpg",
+          "image_id": "img-000592",
+          "distance": 0.6719090938568115
+        },
+        {
+          "image_path": "images/img-000054.jpg",
+          "image_id": "img-000054",
+          "distance": 0.687169075012207
+        },
+        {
+          "image_id": "img-000879",
+          "image_path": "images/img-000879.jpg",
+          "distance": 0.7414882779121399
+        },
+        {
+          "image_path": "images/img-000784.jpg",
+          "image_id": "img-000784",
+          "distance": 0.7475517988204956
+        },
+        {
+          "image_id": "img-001460",
+          "image_path": "images/img-001460.jpg",
+          "distance": 0.7486987113952637
+        },
+        {
+          "image_path": "images/img-001812.jpg",
+          "image_id": "img-001812",
+          "distance": 0.7512727379798889
+        },
+        {
+          "image_id": "img-000392",
+          "image_path": "images/img-000392.jpg",
+          "distance": 0.7541649341583252
+        },
+        {
+          "image_id": "img-001179",
+          "image_path": "images/img-001179.jpg",
+          "distance": 0.7554272413253784
+        },
+        {
+          "image_id": "img-000880",
+          "image_path": "images/img-000880.jpg",
+          "distance": 0.7600926756858826
+        }
+      ]
+    },
+    {
+      "query_id": "q-0040",
+      "image_id": "img-000326",
+      "text": "A black and white dog jumping into a pool .",
+      "rank": 1,
+      "retrieved": [
+        {
+          "image_id": "img-000326",
+          "image_path": "images/img-000326.jpg",
+          "distance": 0.618889570236206
+        },
+        {
+          "image_path": "images/img-000319.jpg",
+          "image_id": "img-000319",
+          "distance": 0.649196982383728
+        },
+        {
+          "image_path": "images/img-001095.jpg",
+          "image_id": "img-001095",
+          "distance": 0.6531664729118347
+        },
+        {
+          "image_id": "img-001910",
+          "image_path": "images/img-001910.jpg",
+          "distance": 0.6603463888168335
+        },
+        {
+          "image_id": "img-000918",
+          "image_path": "images/img-000918.jpg",
+          "distance": 0.6650089025497437
+        },
+        {
+          "image_id": "img-000166",
+          "image_path": "images/img-000166.jpg",
+          "distance": 0.6701079607009888
+        },
+        {
+          "image_path": "images/img-000747.jpg",
+          "image_id": "img-000747",
+          "distance": 0.6717504262924194
+        },
+        {
+          "image_id": "img-001662",
+          "image_path": "images/img-001662.jpg",
+          "distance": 0.6719921827316284
+        },
+        {
+          "image_id": "img-001418",
+          "image_path": "images/img-001418.jpg",
+          "distance": 0.6727794408798218
+        },
+        {
+          "image_id": "img-000686",
+          "image_path": "images/img-000686.jpg",
+          "distance": 0.6798251867294312
+        }
+      ]
+    },
+    {
+      "query_id": "q-0041",
+      "image_id": "img-001429",
+      "text": "A brown dog walks on the rocks near a river .",
+      "rank": 1,
+      "retrieved": [
+        {
+          "image_id": "img-001429",
+          "image_path": "images/img-001429.jpg",
+          "distance": 0.667829692363739
+        },
+        {
+          "image_id": "img-000543",
+          "image_path": "images/img-000543.jpg",
+          "distance": 0.6752722263336182
+        },
+        {
+          "image_path": "images/img-001677.jpg",
+          "image_id": "img-001677",
+          "distance": 0.6757211089134216
+        },
+        {
+          "image_id": "img-000968",
+          "image_path": "images/img-000968.jpg",
+          "distance": 0.6761484146118164
+        },
+        {
+          "image_id": "img-000348",
+          "image_path": "images/img-000348.jpg",
+          "distance": 0.6777070760726929
+        },
+        {
+          "image_id": "img-000937",
+          "image_path": "images/img-000937.jpg",
+          "distance": 0.6833337545394897
+        },
+        {
+          "image_id": "img-001589",
+          "image_path": "images/img-001589.jpg",
+          "distance": 0.6842237710952759
+        },
+        {
+          "image_path": "images/img-001497.jpg",
+          "image_id": "img-001497",
+          "distance": 0.6864597797393799
+        },
+        {
+          "image_id": "img-001683",
+          "image_path": "images/img-001683.jpg",
+          "distance": 0.6873396039009094
+        },
+        {
+          "image_path": "images/img-000163.jpg",
+          "image_id": "img-000163",
+          "distance": 0.6885116100311279
+        }
+      ]
+    },
+    {
+      "query_id": "q-0042",
+      "image_id": "img-000865",
+      "text": "A man in shorts is standing on a rock looking out at the view from the hilltop .",
+      "rank": 1,
+      "retrieved": [
+        {
+          "image_id": "img-000865",
+          "image_path": "images/img-000865.jpg",
+          "distance": 0.6625697016716003
+        },
+        {
+          "image_path": "images/img-000904.jpg",
+          "image_id": "img-000904",
+          "distance": 0.6634398102760315
+        },
+        {
+          "image_id": "img-000969",
+          "image_path": "images/img-000969.jpg",
+          "distance": 0.6797123551368713
+        },
+        {
+          "image_path": "images/img-000875.jpg",
+          "image_id": "img-000875",
+          "distance": 0.6809248328208923
+        },
+        {
+          "image_path": "images/img-000234.jpg",
+          "image_id": "img-000234",
+          "distance": 0.6860296726226807
+        },
+        {
+          "image_path": "images/img-000615.jpg",
+          "image_id": "img-000615",
+          "distance": 0.6862796545028687
+        },
+        {
+          "image_path": "images/img-000323.jpg",
+          "image_id": "img-000323",
+          "distance": 0.6904576420783997
+        },
+        {
+          "image_path": "images/img-000554.jpg",
+          "image_id": "img-000554",
+          "distance": 0.690496027469635
+        },
+        {
+          "image_path": "images/img-000973.jpg",
+          "image_id": "img-000973",
+          "distance": 0.6938824653625488
+        },
+        {
+          "image_id": "img-000971",
+          "image_path": "images/img-000971.jpg",
+          "distance": 0.6944619417190552
+        }
+      ]
+    },
+    {
+      "query_id": "q-0043",
+      "image_id": "img-000696",
+      "text": "Three boys playing soccer in a field",
+      "rank": 6,
+      "retrieved": [
+        {
+          "image_path": "images/img-000612.jpg",
+          "image_id": "img-000612",
+          "distance": 0.6648792028427124
+        },
+        {
+          "image_id": "img-001611",
+          "image_path": "images/img-001611.jpg",
+          "distance": 0.6866508722305298
+        },
+        {
+          "image_path": "images/img-001570.jpg",
+          "image_id": "img-001570",
+          "distance": 0.6925245523452759
+        },
+        {
+          "image_id": "img-001182",
+          "image_path": "images/img-001182.jpg",
+          "distance": 0.6958572268486023
+        },
+        {
+          "image_path": "images/img-000473.jpg",
+          "image_id": "img-000473",
+          "distance": 0.6965308785438538
+        },
+        {
+          "image_id": "img-000696",
+          "image_path": "images/img-000696.jpg",
+          "distance": 0.6992836594581604
+        },
+        {
+          "image_id": "img-000041",
+          "image_path": "images/img-000041.jpg",
+          "distance": 0.7024126052856445
+        },
+        {
+          "image_id": "img-000568",
+          "image_path": "images/img-000568.jpg",
+          "distance": 0.7060873508453369
+        },
+        {
+          "image_id": "img-001098",
+          "image_path": "images/img-001098.jpg",
+          "distance": 0.7088340520858765
+        },
+        {
+          "image_id": "img-001653",
+          "image_path": "images/img-001653.jpg",
+          "distance": 0.708928644657135
+        }
+      ]
+    },
+    {
+      "query_id": "q-0044",
+      "image_id": "img-000318",
+      "text": "A few girls with green foam statue of liberty hats on a train",
+      "rank": 1,
+      "retrieved": [
+        {
+          "image_id": "img-000318",
+          "image_path": "images/img-000318.jpg",
+          "distance": 0.6449487209320068
+        },
+        {
+          "image_id": "img-001014",
+          "image_path": "images/img-001014.jpg",
+          "distance": 0.6952863931655884
+        },
+        {
+          "image_id": "img-001572",
+          "image_path": "images/img-001572.jpg",
+          "distance": 0.7194904685020447
+        },
+        {
+          "image_path": "images/img-001051.jpg",
+          "image_id": "img-001051",
+          "distance": 0.7317405939102173
+        },
+        {
+          "image_path": "images/img-000143.jpg",
+          "image_id": "img-000143",
+          "distance": 0.7347369194030762
+        },
+        {
+          "image_path": "images/img-000299.jpg",
+          "image_id": "img-000299",
+          "distance": 0.7356131076812744
+        },
+        {
+          "image_path": "images/img-001377.jpg",
+          "image_id": "img-001377",
+          "distance": 0.7402651309967041
+        },
+        {
+          "image_id": "img-000301",
+          "image_path": "images/img-000301.jpg",
+          "distance": 0.7427217960357666
+        },
+        {
+          "image_id": "img-000560",
+          "image_path": "images/img-000560.jpg",
+          "distance": 0.7458449602127075
+        },
+        {
+          "image_id": "img-001601",
+          "image_path": "images/img-001601.jpg",
+          "distance": 0.7470107078552246
+        }
+      ]
+    },
+    {
+      "query_id": "q-0045",
+      "image_id": "img-000440",
+      "text": "A child in a black shirt standing on a wooden dock near a picnic table .",
+      "rank": 4,
+      "retrieved": [
+        {
+          "image_path": "images/img-000251.jpg",
+          "image_id": "img-000251",
+          "distance": 0.6811208724975586
+        },
+        {
+          "image_id": "img-001507",
+          "image_path": "images/img-001507.jpg",
+          "distance": 0.6928244829177856
+        },
+        {
+          "image_id": "img-000285",
+          "image_path": "images/img-000285.jpg",
+          "distance": 0.6943936347961426
+        },
+        {
+          "image_path": "images/img-000440.jpg",
+          "image_id": "img-000440",
+          "distance": 0.6958114504814148
+        },
+        {
+          "image_path": "images/img-000783.jpg",
+          "image_id": "img-000783",
+          "distance": 0.6982169151306152
+        },
+        {
+          "image_id": "img-000260",
+          "image_path": "images/img-000260.jpg",
+          "distance": 0.7010530233383179
+        },
+        {
+          "image_id": "img-001625",
+          "image_path": "images/img-001625.jpg",
+          "distance": 0.7011281251907349
+        },
+        {
+          "image_path": "images/img-001022.jpg",
+          "image_id": "img-001022",
+          "distance": 0.702673614025116
+        },
+        {
+          "image_path": "images/img-000684.jpg",
+          "image_id": "img-000684",
+          "distance": 0.7034440040588379
+        },
+        {
+          "image_id": "img-001209",
+          "image_path": "images/img-001209.jpg",
+          "distance": 0.7127809524536133
+        }
+      ]
+    },
+    {
+      "query_id": "q-0046",
+      "image_id": "img-001960",
+      "text": "A blurred image of a black and white dog running through the grass .",
+      "rank": 1,
+      "retrieved": [
+        {
+          "image_id": "img-001960",
+          "image_path": "images/img-001960.jpg",
+          "distance": 0.6578786373138428
+        },
+        {
+          "image_id": "img-001210",
+          "image_path": "images/img-001210.jpg",
+          "distance": 0.6654417514801025
+        },
+        {
+          "image_id": "img-000562",
+          "image_path": "images/img-000562.jpg",
+          "distance": 0.6668189764022827
+        },
+        {
+          "image_id": "img-001862",
+          "image_path": "images/img-001862.jpg",
+          "distance": 0.6678603887557983
+        },
+        {
+          "image_path": "images/img-001599.jpg",
+          "image_id": "img-001599",
+          "distance": 0.670554518699646
+        },
+        {
+          "image_id": "img-000280",
+          "image_path": "images/img-000280.jpg",
+          "distance": 0.6744992733001709
+        },
+        {
+          "image_path": "images/img-000111.jpg",
+          "image_id": "img-000111",
+          "distance": 0.6751800179481506
+        },
+        {
+          "image_path": "images/img-000344.jpg",
+          "image_id": "img-000344",
+          "distance": 0.6758627891540527
+        },
+        {
+          "image_id": "img-001116",
+          "image_path": "images/img-001116.jpg",
+          "distance": 0.6782222986221313
+        },
+        {
+          "image_path": "images/img-000150.jpg",
+          "image_id": "img-000150",
+          "distance": 0.6783303618431091
+        }
+      ]
+    },
+    {
+      "query_id": "q-0047",
+      "image_id": "img-001563",
+      "text": "A man climbing a rock face",
+      "rank": null,
+      "retrieved": [
+        {
+          "image_id": "img-001196",
+          "image_path": "images/img-001196.jpg",
+          "distance": 0.6644306182861328
+        },
+        {
+          "image_path": "images/img-001582.jpg",
+          "image_id": "img-001582",
+          "distance": 0.6696009635925293
+        },
+        {
+          "image_id": "img-001333",
+          "image_path": "images/img-001333.jpg",
+          "distance": 0.6714372634887695
+        },
+        {
+          "image_id": "img-000400",
+          "image_path": "images/img-000400.jpg",
+          "distance": 0.6752670407295227
+        },
+        {
+          "image_id": "img-000333",
+          "image_path": "images/img-000333.jpg",
+          "distance": 0.6761952638626099
+        },
+        {
+          "image_id": "img-000810",
+          "image_path": "images/img-000810.jpg",
+          "distance": 0.6799129843711853
+        },
+        {
+          "image_id": "img-000462",
+          "image_path": "images/img-000462.jpg",
+          "distance": 0.6820164918899536
+        },
+        {
+          "image_id": "img-001626",
+          "image_path": "images/img-001626.jpg",
+          "distance": 0.6834458112716675
+        },
+        {
+          "image_id": "img-000351",
+          "image_path": "images/img-000351.jpg",
+          "distance": 0.6850225925445557
+        },
+        {
+          "image_path": "images/img-001336.jpg",
+          "image_id": "img-001336",
+          "distance": 0.6858969926834106
+        }
+      ]
+    },
+    {
+      "query_id": "q-0048",
+      "image_id": "img-000689",
+      "text": "A girl in a pink tank top and green pants is running through a field of tall flowers .",
+      "rank": 1,
+      "retrieved": [
+        {
+          "image_path": "images/img-000689.jpg",
+          "image_id": "img-000689",
+          "distance": 0.6480751037597656
+        },
+        {
+          "image_path": "images/img-000307.jpg",
+          "image_id": "img-000307",
+          "distance": 0.6759021282196045
+        },
+        {
+          "image_id": "img-000866",
+          "image_path": "images/img-000866.jpg",
+          "distance": 0.6840566396713257
+        },
+        {
+          "image_path": "images/img-001405.jpg",
+          "image_id": "img-001405",
+          "distance": 0.6958997249603271
+        },
+        {
+          "image_id": "img-000366",
+          "image_path": "images/img-000366.jpg",
+          "distance": 0.7016619443893433
+        },
+        {
+          "image_path": "images/img-001839.jpg",
+          "image_id": "img-001839",
+          "distance": 0.7017146348953247
+        },
+        {
+          "image_path": "images/img-001462.jpg",
+          "image_id": "img-001462",
+          "distance": 0.7059752941131592
+        },
+        {
+          "image_id": "img-001143",
+          "image_path": "images/img-001143.jpg",
+          "distance": 0.7086924314498901
+        },
+        {
+          "image_path": "images/img-001131.jpg",
+          "image_id": "img-001131",
+          "distance": 0.7100652456283569
+        },
+        {
+          "image_id": "img-000667",
+          "image_path": "images/img-000667.jpg",
+          "distance": 0.7103605270385742
+        }
+      ]
+    },
+    {
+      "query_id": "q-0049",
+      "image_id": "img-000189",
+      "text": "a Korean man sells soda .",
+      "rank": 1,
+      "retrieved": [
+        {
+          "image_id": "img-000189",
+          "image_path": "images/img-000189.jpg",
+          "distance": 0.689044713973999
+        },
+        {
+          "image_path": "images/img-000256.jpg",
+          "image_id": "img-000256",
+          "distance": 0.6990687251091003
+        },
+        {
+          "image_id": "img-001342",
+          "image_path": "images/img-001342.jpg",
+          "distance": 0.7131352424621582
+        },
+        {
+          "image_id": "img-000425",
+          "image_path": "images/img-000425.jpg",
+          "distance": 0.7144331932067871
+        },
+        {
+          "image_path": "images/img-001302.jpg",
+          "image_id": "img-001302",
+          "distance": 0.714699387550354
+        },
+        {
+          "image_id": "img-001728",
+          "image_path": "images/img-001728.jpg",
+          "distance": 0.7173751592636108
+        },
+        {
+          "image_id": "img-000967",
+          "image_path": "images/img-000967.jpg",
+          "distance": 0.7196016311645508
+        },
+        {
+          "image_id": "img-001356",
+          "image_path": "images/img-001356.jpg",
+          "distance": 0.7221096754074097
+        },
+        {
+          "image_id": "img-000563",
+          "image_path": "images/img-000563.jpg",
+          "distance": 0.7227867841720581
+        },
+        {
+          "image_id": "img-000380",
+          "image_path": "images/img-000380.jpg",
+          "distance": 0.7279062271118164
+        }
+      ]
+    },
+    {
+      "query_id": "q-0050",
+      "image_id": "img-000778",
+      "text": "A little blond boy and a young woman in jeans walk through a plaza .",
+      "rank": 7,
+      "retrieved": [
+        {
+          "image_path": "images/img-001149.jpg",
+          "image_id": "img-001149",
+          "distance": 0.6796013712882996
+        },
+        {
+          "image_path": "images/img-000168.jpg",
+          "image_id": "img-000168",
+          "distance": 0.6868734359741211
+        },
+        {
+          "image_id": "img-000780",
+          "image_path": "images/img-000780.jpg",
+          "distance": 0.6894516348838806
+        },
+        {
+          "image_path": "images/img-001324.jpg",
+          "image_id": "img-001324",
+          "distance": 0.690672755241394
+        },
+        {
+          "image_path": "images/img-000312.jpg",
+          "image_id": "img-000312",
+          "distance": 0.694244921207428
+        },
+        {
+          "image_path": "images/img-000252.jpg",
+          "image_id": "img-000252",
+          "distance": 0.694753110408783
+        },
+        {
+          "image_path": "images/img-000778.jpg",
+          "image_id": "img-000778",
+          "distance": 0.6958032846450806
+        },
+        {
+          "image_id": "img-000666",
+          "image_path": "images/img-000666.jpg",
+          "distance": 0.6964023113250732
+        },
+        {
+          "image_id": "img-001633",
+          "image_path": "images/img-001633.jpg",
+          "distance": 0.6982998847961426
+        },
+        {
+          "image_id": "img-000008",
+          "image_path": "images/img-000008.jpg",
+          "distance": 0.7027297616004944
+        }
+      ]
+    },
+    {
+      "query_id": "q-0051",
+      "image_id": "img-000198",
+      "text": "A dog in a number six jersey is running through a field .",
+      "rank": 10,
+      "retrieved": [
+        {
+          "image_path": "images/img-000870.jpg",
+          "image_id": "img-000870",
+          "distance": 0.6564237475395203
+        },
+        {
+          "image_id": "img-000640",
+          "image_path": "images/img-000640.jpg",
+          "distance": 0.6583164930343628
+        },
+        {
+          "image_id": "img-001751",
+          "image_path": "images/img-001751.jpg",
+          "distance": 0.6586098670959473
+        },
+        {
+          "image_path": "images/img-001202.jpg",
+          "image_id": "img-001202",
+          "distance": 0.6593864560127258
+        },
+        {
+          "image_path": "images/img-000344.jpg",
+          "image_id": "img-000344",
+          "distance": 0.6603757739067078
+        },
+        {
+          "image_id": "img-001905",
+          "image_path": "images/img-001905.jpg",
+          "distance": 0.6604524850845337
+        },
+        {
+          "image_path": "images/img-000345.jpg",
+          "image_id": "img-000345",
+          "distance": 0.6619952917098999
+        },
+        {
+          "image_id": "img-001487",
+          "image_path": "images/img-001487.jpg",
+          "distance": 0.6628211140632629
+        },
+        {
+          "image_id": "img-001030",
+          "image_path": "images/img-001030.jpg",
+          "distance": 0.662864089012146
+        },
+        {
+          "image_id": "img-000198",
+          "image_path": "images/img-000198.jpg",
+          "distance": 0.6648237705230713
+        }
+      ]
+    },
+    {
+      "query_id": "q-0052",
+      "image_id": "img-000735",
+      "text": "A black and white dog standing on its hind legs on carpeting in front of a chair .",
+      "rank": 1,
+      "retrieved": [
+        {
+          "image_path": "images/img-000735.jpg",
+          "image_id": "img-000735",
+          "distance": 0.6630926132202148
+        },
+        {
+          "image_id": "img-001886",
+          "image_path": "images/img-001886.jpg",
+          "distance": 0.6872241497039795
+        },
+        {
+          "image_path": "images/img-001430.jpg",
+          "image_id": "img-001430",
+          "distance": 0.6880040764808655
+        },
+        {
+          "image_path": "images/img-000435.jpg",
+          "image_id": "img-000435",
+          "distance": 0.7058436870574951
+        },
+        {
+          "image_id": "img-000602",
+          "image_path": "images/img-000602.jpg",
+          "distance": 0.7087959051132202
+        },
+        {
+          "image_id": "img-001941",
+          "image_path": "images/img-001941.jpg",
+          "distance": 0.7102893590927124
+        },
+        {
+          "image_id": "img-000640",
+          "image_path": "images/img-000640.jpg",
+          "distance": 0.7111514210700989
+        },
+        {
+          "image_id": "img-001902",
+          "image_path": "images/img-001902.jpg",
+          "distance": 0.7130913734436035
+        },
+        {
+          "image_path": "images/img-001727.jpg",
+          "image_id": "img-001727",
+          "distance": 0.7139338254928589
+        },
+        {
+          "image_id": "img-001090",
+          "image_path": "images/img-001090.jpg",
+          "distance": 0.7146157026290894
+        }
+      ]
+    },
+    {
+      "query_id": "q-0053",
+      "image_id": "img-001735",
+      "text": "A dog chasing a toy duck .",
+      "rank": null,
+      "retrieved": [
+        {
+          "image_path": "images/img-001895.jpg",
+          "image_id": "img-001895",
+          "distance": 0.6301845908164978
+        },
+        {
+          "image_path": "images/img-001481.jpg",
+          "image_id": "img-001481",
+          "distance": 0.6636197566986084
+        },
+        {
+          "image_path": "images/img-001297.jpg",
+          "image_id": "img-001297",
+          "distance": 0.6742608547210693
+        },
+        {
+          "image_id": "img-000798",
+          "image_path": "images/img-000798.jpg",
+          "distance": 0.6766329407691956
+        },
+        {
+          "image_id": "img-001163",
+          "image_path": "images/img-001163.jpg",
+          "distance": 0.6794472336769104
+        },
+        {
+          "image_path": "images/img-000767.jpg",
+          "image_id": "img-000767",
+          "distance": 0.6794697642326355
+        },
+        {
+          "image_id": "img-001824",
+          "image_path": "images/img-001824.jpg",
+          "distance": 0.6824654340744019
+        },
+        {
+          "image_path": "images/img-000164.jpg",
+          "image_id": "img-000164",
+          "distance": 0.687921404838562
+        },
+        {
+          "image_id": "img-000275",
+          "image_path": "images/img-000275.jpg",
+          "distance": 0.6889729499816895
+        },
+        {
+          "image_id": "img-001605",
+          "image_path": "images/img-001605.jpg",
+          "distance": 0.6893867254257202
+        }
+      ]
+    },
+    {
+      "query_id": "q-0054",
+      "image_id": "img-000704",
+      "text": "A man in yellow stands in a garbage strewn underpass .",
+      "rank": 1,
+      "retrieved": [
+        {
+          "image_id": "img-000704",
+          "image_path": "images/img-000704.jpg",
+          "distance": 0.6283231973648071
+        },
+        {
+          "image_id": "img-000570",
+          "image_path": "images/img-000570.jpg",
+          "distance": 0.6646513938903809
+        },
+        {
+          "image_id": "img-000449",
+          "image_path": "images/img-000449.jpg",
+          "distance": 0.7076311707496643
+        },
+        {
+          "image_path": "images/img-001265.jpg",
+          "image_id": "img-001265",
+          "distance": 0.7142643928527832
+        },
+        {
+          "image_id": "img-001713",
+          "image_path": "images/img-001713.jpg",
+          "distance": 0.7216298580169678
+        },
+        {
+          "image_id": "img-001350",
+          "image_path": "images/img-001350.jpg",
+          "distance": 0.7271859049797058
+        },
+        {
+          "image_id": "img-000580",
+          "image_path": "images/img-000580.jpg",
+          "distance": 0.7308299541473389
+        },
+        {
+          "image_id": "img-000563",
+          "image_path": "images/img-000563.jpg",
+          "distance": 0.7351844310760498
+        },
+        {
+          "image_id": "img-001322",
+          "image_path": "images/img-001322.jpg",
+          "distance": 0.7359334230422974
+        },
+        {
+          "image_path": "images/img-000981.jpg",
+          "image_id": "img-000981",
+          "distance": 0.736467182636261
+        }
+      ]
+    },
+    {
+      "query_id": "q-0055",
+      "image_id": "img-001236",
+      "text": "A dark haired boy in a gold shirt is inside a piece of blue plastic play equipment .",
+      "rank": 5,
+      "retrieved": [
+        {
+          "image_id": "img-000544",
+          "image_path": "images/img-000544.jpg",
+          "distance": 0.6414063572883606
+        },
+        {
+          "image_id": "img-000672",
+          "image_path": "images/img-000672.jpg",
+          "distance": 0.6618786454200745
+        },
+        {
+          "image_id": "img-000524",
+          "image_path": "images/img-000524.jpg",
+          "distance": 0.6682313084602356
+        },
+        {
+          "image_path": "images/img-000242.jpg",
+          "image_id": "img-000242",
+          "distance": 0.6711903214454651
+        },
+        {
+          "image_path": "images/img-001236.jpg",
+          "image_id": "img-001236",
+          "distance": 0.6773229837417603
+        },
+        {
+          "image_path": "images/img-000715.jpg",
+          "image_id": "img-000715",
+          "distance": 0.6801395416259766
+        },
+        {
+          "image_path": "images/img-000352.jpg",
+          "image_id": "img-000352",
+          "distance": 0.6822916269302368
+        },
+        {
+          "image_id": "img-001855",
+          "image_path": "images/img-001855.jpg",
+          "distance": 0.6824898719787598
+        },
+        {
+          "image_id": "img-001362",
+          "image_path": "images/img-001362.jpg",
+          "distance": 0.6850398778915405
+        },
+        {
+          "image_id": "img-001834",
+          "image_path": "images/img-001834.jpg",
+          "distance": 0.6883005499839783
+        }
+      ]
+    },
+    {
+      "query_id": "q-0056",
+      "image_id": "img-000541",
+      "text": "a few different colored dogs jumping around in the grass behind a house",
+      "rank": null,
+      "retrieved": [
+        {
+          "image_id": "img-001282",
+          "image_path": "images/img-001282.jpg",
+          "distance": 0.6807790994644165
+        },
+        {
+          "image_path": "images/img-000374.jpg",
+          "image_id": "img-000374",
+          "distance": 0.6883834004402161
+        },
+        {
+          "image_id": "img-001944",
+          "image_path": "images/img-001944.jpg",
+          "distance": 0.6899692416191101
+        },
+        {
+          "image_path": "images/img-001513.jpg",
+          "image_id": "img-001513",
+          "distance": 0.6906253099441528
+        },
+        {
+          "image_path": "images/img-001681.jpg",
+          "image_id": "img-001681",
+          "distance": 0.6915231943130493
+        },
+        {
+          "image_id": "img-001961",
+          "image_path": "images/img-001961.jpg",
+          "distance": 0.6924921870231628
+        },
+        {
+          "image_path": "images/img-001816.jpg",
+          "image_id": "img-001816",
+          "distance": 0.6975567936897278
+        },
+        {
+          "image_id": "img-000388",
+          "image_path": "images/img-000388.jpg",
+          "distance": 0.6997694969177246
+        },
+        {
+          "image_path": "images/img-000722.jpg",
+          "image_id": "img-000722",
+          "distance": 0.6999423503875732
+        },
+        {
+          "image_path": "images/img-000791.jpg",
+          "image_id": "img-000791",
+          "distance": 0.7004504203796387
+        }
+      ]
+    },
+    {
+      "query_id": "q-0057",
+      "image_id": "img-001652",
+      "text": "A man wearing a green jacket is holding onto a baby in an orange bonnet .",
+      "rank": 9,
+      "retrieved": [
+        {
+          "image_path": "images/img-000708.jpg",
+          "image_id": "img-000708",
+          "distance": 0.6969937086105347
+        },
+        {
+          "image_id": "img-000621",
+          "image_path": "images/img-000621.jpg",
+          "distance": 0.6982839107513428
+        },
+        {
+          "image_path": "images/img-000457.jpg",
+          "image_id": "img-000457",
+          "distance": 0.7067021131515503
+        },
+        {
+          "image_path": "images/img-000779.jpg",
+          "image_id": "img-000779",
+          "distance": 0.7087274789810181
+        },
+        {
+          "image_path": "images/img-000545.jpg",
+          "image_id": "img-000545",
+          "distance": 0.7101457715034485
+        },
+        {
+          "image_path": "images/img-000335.jpg",
+          "image_id": "img-000335",
+          "distance": 0.7125905752182007
+        },
+        {
+          "image_id": "img-000768",
+          "image_path": "images/img-000768.jpg",
+          "distance": 0.7149237990379333
+        },
+        {
+          "image_id": "img-001744",
+          "image_path": "images/img-001744.jpg",
+          "distance": 0.715660035610199
+        },
+        {
+          "image_path": "images/img-001652.jpg",
+          "image_id": "img-001652",
+          "distance": 0.7161885499954224
+        },
+        {
+          "image_id": "img-000580",
+          "image_path": "images/img-000580.jpg",
+          "distance": 0.7168287038803101
+        }
+      ]
+    },
+    {
+      "query_id": "q-0058",
+      "image_id": "img-000088",
+      "text": "A boy in yellow shorts is standing on top of a cliff .",
+      "rank": 2,
+      "retrieved": [
+        {
+          "image_id": "img-000865",
+          "image_path": "images/img-000865.jpg",
+          "distance": 0.6449878215789795
+        },
+        {
+          "image_id": "img-000088",
+          "image_path": "images/img-000088.jpg",
+          "distance": 0.6590652465820312
+        },
+        {
+          "image_id": "img-000234",
+          "image_path": "images/img-000234.jpg",
+          "distance": 0.6739157438278198
+        },
+        {
+          "image_path": "images/img-001333.jpg",
+          "image_id": "img-001333",
+          "distance": 0.6821860074996948
+        },
+        {
+          "image_path": "images/img-000950.jpg",
+          "image_id": "img-000950",
+          "distance": 0.6871852874755859
+        },
+        {
+          "image_path": "images/img-000145.jpg",
+          "image_id": "img-000145",
+          "distance": 0.6885377168655396
+        },
+        {
+          "image_id": "img-001336",
+          "image_path": "images/img-001336.jpg",
+          "distance": 0.6887590885162354
+        },
+        {
+          "image_path": "images/img-000463.jpg",
+          "image_id": "img-000463",
+          "distance": 0.6891933679580688
+        },
+        {
+          "image_id": "img-000465",
+          "image_path": "images/img-000465.jpg",
+          "distance": 0.6906498670578003
+        },
+        {
+          "image_path": "images/img-000411.jpg",
+          "image_id": "img-000411",
+          "distance": 0.6908645629882812
+        }
+      ]
+    },
+    {
+      "query_id": "q-0059",
+      "image_id": "img-001494",
+      "text": "A brown dog is playing with a red toy while another brown dog bounds towards the camera .",
+      "rank": 3,
+      "retrieved": [
+        {
+          "image_id": "img-000851",
+          "image_path": "images/img-000851.jpg",
+          "distance": 0.6365090012550354
+        },
+        {
+          "image_path": "images/img-000388.jpg",
+          "image_id": "img-000388",
+          "distance": 0.6426849961280823
+        },
+        {
+          "image_id": "img-001494",
+          "image_path": "images/img-001494.jpg",
+          "distance": 0.6459676027297974
+        },
+        {
+          "image_id": "img-001515",
+          "image_path": "images/img-001515.jpg",
+          "distance": 0.6498533487319946
+        },
+        {
+          "image_path": "images/img-001924.jpg",
+          "image_id": "img-001924",
+          "distance": 0.6532750129699707
+        },
+        {
+          "image_id": "img-000541",
+          "image_path": "images/img-000541.jpg",
+          "distance": 0.6534783840179443
+        },
+        {
+          "image_path": "images/img-000173.jpg",
+          "image_id": "img-000173",
+          "distance": 0.6557099223136902
+        },
+        {
+          "image_id": "img-000477",
+          "image_path": "images/img-000477.jpg",
+          "distance": 0.6570897102355957
+        },
+        {
+          "image_path": "images/img-001895.jpg",
+          "image_id": "img-001895",
+          "distance": 0.6600031852722168
+        },
+        {
+          "image_path": "images/img-001503.jpg",
+          "image_id": "img-001503",
+          "distance": 0.6604906320571899
+        }
+      ]
+    },
+    {
+      "query_id": "q-0060",
+      "image_id": "img-000940",
+      "text": "A guy with a scarf and woven toboggan .",
+      "rank": 1,
+      "retrieved": [
+        {
+          "image_path": "images/img-000940.jpg",
+          "image_id": "img-000940",
+          "distance": 0.7045096158981323
+        },
+        {
+          "image_id": "img-001051",
+          "image_path": "images/img-001051.jpg",
+          "distance": 0.7047619223594666
+        },
+        {
+          "image_path": "images/img-000945.jpg",
+          "image_id": "img-000945",
+          "distance": 0.7068518400192261
+        },
+        {
+          "image_path": "images/img-001350.jpg",
+          "image_id": "img-001350",
+          "distance": 0.7112364768981934
+        },
+        {
+          "image_id": "img-001342",
+          "image_path": "images/img-001342.jpg",
+          "distance": 0.7122732400894165
+        },
+        {
+          "image_id": "img-000004",
+          "image_path": "images/img-000004.jpg",
+          "distance": 0.7166088223457336
+        },
+        {
+          "image_path": "images/img-001173.jpg",
+          "image_id": "img-001173",
+          "distance": 0.7174612283706665
+        },
+        {
+          "image_id": "img-000756",
+          "image_path": "images/img-000756.jpg",
+          "distance": 0.7214844226837158
+        },
+        {
+          "image_id": "img-000910",
+          "image_path": "images/img-000910.jpg",
+          "distance": 0.7215327024459839
+        },
+        {
+          "image_path": "images/img-001678.jpg",
+          "image_id": "img-001678",
+          "distance": 0.7220020294189453
+        }
+      ]
+    },
+    {
+      "query_id": "q-0061",
+      "image_id": "img-001098",
+      "text": "A child in a white shirt standing in a field of grass .",
+      "rank": 2,
+      "retrieved": [
+        {
+          "image_path": "images/img-000366.jpg",
+          "image_id": "img-000366",
+          "distance": 0.6732066869735718
+        },
+        {
+          "image_path": "images/img-001098.jpg",
+          "image_id": "img-001098",
+          "distance": 0.6796168088912964
+        },
+        {
+          "image_id": "img-001641",
+          "image_path": "images/img-001641.jpg",
+          "distance": 0.6924198865890503
+        },
+        {
+          "image_id": "img-001462",
+          "image_path": "images/img-001462.jpg",
+          "distance": 0.693976879119873
+        },
+        {
+          "image_id": "img-001906",
+          "image_path": "images/img-001906.jpg",
+          "distance": 0.6984875202178955
+        },
+        {
+          "image_path": "images/img-000307.jpg",
+          "image_id": "img-000307",
+          "distance": 0.7009155750274658
+        },
+        {
+          "image_id": "img-001511",
+          "image_path": "images/img-001511.jpg",
+          "distance": 0.7011728882789612
+        },
+        {
+          "image_path": "images/img-000206.jpg",
+          "image_id": "img-000206",
+          "distance": 0.7036110162734985
+        },
+        {
+          "image_id": "img-001206",
+          "image_path": "images/img-001206.jpg",
+          "distance": 0.70489501953125
+        },
+        {
+          "image_id": "img-001568",
+          "image_path": "images/img-001568.jpg",
+          "distance": 0.708575963973999
+        }
+      ]
+    },
+    {
+      "query_id": "q-0062",
+      "image_id": "img-000255",
+      "text": "A crowd of people are standing together on a sidewalk , while one man is taking a picture .",
+      "rank": null,
+      "retrieved": [
+        {
+          "image_path": "images/img-001894.jpg",
+          "image_id": "img-001894",
+          "distance": 0.6702555418014526
+        },
+        {
+          "image_id": "img-000157",
+          "image_path": "images/img-000157.jpg",
+          "distance": 0.6997930407524109
+        },
+        {
+          "image_path": "images/img-001324.jpg",
+          "image_id": "img-001324",
+          "distance": 0.7035322785377502
+        },
+        {
+          "image_id": "img-001306",
+          "image_path": "images/img-001306.jpg",
+          "distance": 0.7046135663986206
+        },
+        {
+          "image_id": "img-000580",
+          "image_path": "images/img-000580.jpg",
+          "distance": 0.706001877784729
+        },
+        {
+          "image_id": "img-001421",
+          "image_path": "images/img-001421.jpg",
+          "distance": 0.7073032259941101
+        },
+        {
+          "image_path": "images/img-001629.jpg",
+          "image_id": "img-001629",
+          "distance": 0.7082385420799255
+        },
+        {
+          "image_path": "images/img-000563.jpg",
+          "image_id": "img-000563",
+          "distance": 0.712247371673584
+        },
+        {
+          "image_path": "images/img-000581.jpg",
+          "image_id": "img-000581",
+          "distance": 0.7139084935188293
+        },
+        {
+          "image_id": "img-001485",
+          "image_path": "images/img-001485.jpg",
+          "distance": 0.7145370841026306
+        }
+      ]
+    },
+    {
+      "query_id": "q-0063",
+      "image_id": "img-001992",
+      "text": "A big brother helps a little sister blow bubbles .",
+      "rank": 1,
+      "retrieved": [
+        {
+          "image_id": "img-001992",
+          "image_path": "images/img-001992.jpg",
+          "distance": 0.6961567997932434
+        },
+        {
+          "image_path": "images/img-000347.jpg",
+          "image_id": "img-000347",
+          "distance": 0.7023530602455139
+        },
+        {
+          "image_path": "images/img-001510.jpg",
+          "image_id": "img-001510",
+          "distance": 0.7055977582931519
+        },
+        {
+          "image_id": "img-001383",
+          "image_path": "images/img-001383.jpg",
+          "distance": 0.7056987285614014
+        },
+        {
+          "image_id": "img-000820",
+          "image_path": "images/img-000820.jpg",
+          "distance": 0.7076441049575806
+        },
+        {
+          "image_id": "img-000059",
+          "image_path": "images/img-000059.jpg",
+          "distance": 0.7098278999328613
+        },
+        {
+          "image_id": "img-000815",
+          "image_path": "images/img-000815.jpg",
+          "distance": 0.7145636677742004
+        },
+        {
+          "image_id": "img-001725",
+          "image_path": "images/img-001725.jpg",
+          "distance": 0.7153542041778564
+        },
+        {
+          "image_id": "img-001968",
+          "image_path": "images/img-001968.jpg",
+          "distance": 0.7165961265563965
+        },
+        {
+          "image_path": "images/img-000285.jpg",
+          "image_id": "img-000285",
+          "distance": 0.7176932096481323
+        }
+      ]
+    },
+    {
+      "query_id": "q-0064",
+      "image_id": "img-001888",
+      "text": "A man in a gray shirt jumps in the air .",
+      "rank": 7,
+      "retrieved": [
+        {
+          "image_id": "img-001078",
+          "image_path": "images/img-001078.jpg",
+          "distance": 0.6761691570281982
+        },
+        {
+          "image_path": "images/img-000414.jpg",
+          "image_id": "img-000414",
+          "distance": 0.676666259765625
+        },
+        {
+          "image_id": "img-000556",
+          "image_path": "images/img-000556.jpg",
+          "distance": 0.6869195699691772
+        },
+        {
+          "image_path": "images/img-000322.jpg",
+          "image_id": "img-000322",
+          "distance": 0.6919082403182983
+        },
+        {
+          "image_id": "img-000045",
+          "image_path": "images/img-000045.jpg",
+          "distance": 0.6947310566902161
+        },
+        {
+          "image_id": "img-000950",
+          "image_path": "images/img-000950.jpg",
+          "distance": 0.6953560709953308
+        },
+        {
+          "image_id": "img-001888",
+          "image_path": "images/img-001888.jpg",
+          "distance": 0.6963542699813843
+        },
+        {
+          "image_id": "img-001482",
+          "image_path": "images/img-001482.jpg",
+          "distance": 0.6975524425506592
+        },
+        {
+          "image_id": "img-000094",
+          "image_path": "images/img-000094.jpg",
+          "distance": 0.6991888284683228
+        },
+        {
+          "image_id": "img-000402",
+          "image_path": "images/img-000402.jpg",
+          "distance": 0.6992189884185791
+        }
+      ]
+    },
+    {
+      "query_id": "q-0065",
+      "image_id": "img-000775",
+      "text": "A dog in the forest .",
+      "rank": 1,
+      "retrieved": [
+        {
+          "image_path": "images/img-000775.jpg",
+          "image_id": "img-000775",
+          "distance": 0.6737716197967529
+        },
+        {
+          "image_id": "img-000593",
+          "image_path": "images/img-000593.jpg",
+          "distance": 0.6748999953269958
+        },
+        {
+          "image_id": "img-000937",
+          "image_path": "images/img-000937.jpg",
+          "distance": 0.6834596991539001
+        },
+        {
+          "image_id": "img-001668",
+          "image_path": "images/img-001668.jpg",
+          "distance": 0.6868664026260376
+        },
+        {
+          "image_id": "img-001922",
+          "image_path": "images/img-001922.jpg",
+          "distance": 0.6879116296768188
+        },
+        {
+          "image_path": "images/img-001352.jpg",
+          "image_id": "img-001352",
+          "distance": 0.6912651062011719
+        },
+        {
+          "image_path": "images/img-000531.jpg",
+          "image_id": "img-000531",
+          "distance": 0.6949865818023682
+        },
+        {
+          "image_id": "img-000399",
+          "image_path": "images/img-000399.jpg",
+          "distance": 0.6951894164085388
+        },
+        {
+          "image_path": "images/img-000163.jpg",
+          "image_id": "img-000163",
+          "distance": 0.6959773302078247
+        },
+        {
+          "image_id": "img-000771",
+          "image_path": "images/img-000771.jpg",
+          "distance": 0.696101188659668
+        }
+      ]
+    },
+    {
+      "query_id": "q-0066",
+      "image_id": "img-000161",
+      "text": "Parents are pushing little children in red car carts .",
+      "rank": 3,
+      "retrieved": [
+        {
+          "image_path": "images/img-000708.jpg",
+          "image_id": "img-000708",
+          "distance": 0.6600390672683716
+        },
+        {
+          "image_path": "images/img-001654.jpg",
+          "image_id": "img-001654",
+          "distance": 0.7082875967025757
+        },
+        {
+          "image_id": "img-000161",
+          "image_path": "images/img-000161.jpg",
+          "distance": 0.7096704244613647
+        },
+        {
+          "image_path": "images/img-001453.jpg",
+          "image_id": "img-001453",
+          "distance": 0.7164608836174011
+        },
+        {
+          "image_path": "images/img-001837.jpg",
+          "image_id": "img-001837",
+          "distance": 0.7194257974624634
+        },
+        {
+          "image_id": "img-000710",
+          "image_path": "images/img-000710.jpg",
+          "distance": 0.7244827747344971
+        },
+        {
+          "image_id": "img-001633",
+          "image_path": "images/img-001633.jpg",
+          "distance": 0.7250878810882568
+        },
+        {
+          "image_id": "img-000377",
+          "image_path": "images/img-000377.jpg",
+          "distance": 0.7272571325302124
+        },
+        {
+          "image_id": "img-000976",
+          "image_path": "images/img-000976.jpg",
+          "distance": 0.732438862323761
+        },
+        {
+          "image_id": "img-001684",
+          "image_path": "images/img-001684.jpg",
+          "distance": 0.7337900400161743
+        }
+      ]
+    },
+    {
+      "query_id": "q-0067",
+      "image_id": "img-001130",
+      "text": "A brown dog and two white dogs are bounding after a ball .",
+      "rank": 10,
+      "retrieved": [
+        {
+          "image_path": "images/img-001749.jpg",
+          "image_id": "img-001749",
+          "distance": 0.6228605508804321
+        },
+        {
+          "image_path": "images/img-000722.jpg",
+          "image_id": "img-000722",
+          "distance": 0.6285243034362793
+        },
+        {
+          "image_path": "images/img-001503.jpg",
+          "image_id": "img-001503",
+          "distance": 0.6301195621490479
+        },
+        {
+          "image_id": "img-000388",
+          "image_path": "images/img-000388.jpg",
+          "distance": 0.6335701942443848
+        },
+        {
+          "image_path": "images/img-000738.jpg",
+          "image_id": "img-000738",
+          "distance": 0.6369247436523438
+        },
+        {
+          "image_id": "img-000229",
+          "image_path": "images/img-000229.jpg",
+          "distance": 0.6375520825386047
+        },
+        {
+          "image_id": "img-000851",
+          "image_path": "images/img-000851.jpg",
+          "distance": 0.6404134035110474
+        },
+        {
+          "image_id": "img-001240",
+          "image_path": "images/img-001240.jpg",
+          "distance": 0.6407645344734192
+        },
+        {
+          "image_path": "images/img-000947.jpg",
+          "image_id": "img-000947",
+          "distance": 0.6434825658798218
+        },
+        {
+          "image_path": "images/img-001130.jpg",
+          "image_id": "img-001130",
+          "distance": 0.6442347764968872
+        }
+      ]
+    },
+    {
+      "query_id": "q-0068",
+      "image_id": "img-000600",
+      "text": "A child plays on the ground in a pile of leaves .",
+      "rank": 8,
+      "retrieved": [
+        {
+          "image_id": "img-000802",
+          "image_path": "images/img-000802.jpg",
+          "distance": 0.6478410959243774
+        },
+        {
+          "image_path": "images/img-000702.jpg",
+          "image_id": "img-000702",
+          "distance": 0.691255509853363
+        },
+        {
+          "image_path": "images/img-001906.jpg",
+          "image_id": "img-001906",
+          "distance": 0.6989315748214722
+        },
+        {
+          "image_id": "img-001462",
+          "image_path": "images/img-001462.jpg",
+          "distance": 0.7005892992019653
+        },
+        {
+          "image_id": "img-001085",
+          "image_path": "images/img-001085.jpg",
+          "distance": 0.7092323303222656
+        },
+        {
+          "image_id": "img-000952",
+          "image_path": "images/img-000952.jpg",
+          "distance": 0.7098366022109985
+        },
+        {
+          "image_id": "img-000736",
+          "image_path": "images/img-000736.jpg",
+          "distance": 0.7122982740402222
+        },
+        {
+          "image_path": "images/img-000600.jpg",
+          "image_id": "img-000600",
+          "distance": 0.712302565574646
+        },
+        {
+          "image_path": "images/img-001048.jpg",
+          "image_id": "img-001048",
+          "distance": 0.7128191590309143
+        },
+        {
+          "image_path": "images/img-001641.jpg",
+          "image_id": "img-001641",
+          "distance": 0.7148163318634033
+        }
+      ]
+    },
+    {
+      "query_id": "q-0069",
+      "image_id": "img-001698",
+      "text": "A boy is standing open mouthed on the steps that lead down to the water .",
+      "rank": null,
+      "retrieved": [
+        {
+          "image_id": "img-001507",
+          "image_path": "images/img-001507.jpg",
+          "distance": 0.6592848300933838
+        },
+        {
+          "image_id": "img-000985",
+          "image_path": "images/img-000985.jpg",
+          "distance": 0.6827109456062317
+        },
+        {
+          "image_id": "img-001290",
+          "image_path": "images/img-001290.jpg",
+          "distance": 0.6856119632720947
+        },
+        {
+          "image_id": "img-001625",
+          "image_path": "images/img-001625.jpg",
+          "distance": 0.6885803937911987
+        },
+        {
+          "image_path": "images/img-000123.jpg",
+          "image_id": "img-000123",
+          "distance": 0.6911057233810425
+        },
+        {
+          "image_path": "images/img-000440.jpg",
+          "image_id": "img-000440",
+          "distance": 0.6916874051094055
+        },
+        {
+          "image_id": "img-001828",
+          "image_path": "images/img-001828.jpg",
+          "distance": 0.6927581429481506
+        },
+        {
+          "image_id": "img-000439",
+          "image_path": "images/img-000439.jpg",
+          "distance": 0.6931479573249817
+        },
+        {
+          "image_path": "images/img-001706.jpg",
+          "image_id": "img-001706",
+          "distance": 0.6979063749313354
+        },
+        {
+          "image_id": "img-001097",
+          "image_path": "images/img-001097.jpg",
+          "distance": 0.6988468766212463
+        }
+      ]
+    },
+    {
+      "query_id": "q-0070",
+      "image_id": "img-001287",
+      "text": "A child in purple winter gear is on a red sled .",
+      "rank": 2,
+      "retrieved": [
+        {
+          "image_id": "img-001689",
+          "image_path": "images/img-001689.jpg",
+          "distance": 0.6667125225067139
+        },
+        {
+          "image_path": "images/img-001287.jpg",
+          "image_id": "img-001287",
+          "distance": 0.6670680046081543
+        },
+        {
+          "image_id": "img-001620",
+          "image_path": "images/img-001620.jpg",
+          "distance": 0.6777815818786621
+        },
+        {
+          "image_id": "img-001068",
+          "image_path": "images/img-001068.jpg",
+          "distance": 0.6793298125267029
+        },
+        {
+          "image_id": "img-001587",
+          "image_path": "images/img-001587.jpg",
+          "distance": 0.6803197860717773
+        },
+        {
+          "image_id": "img-001717",
+          "image_path": "images/img-001717.jpg",
+          "distance": 0.6846207976341248
+        },
+        {
+          "image_id": "img-001293",
+          "image_path": "images/img-001293.jpg",
+          "distance": 0.6872090697288513
+        },
+        {
+          "image_path": "images/img-001060.jpg",
+          "image_id": "img-001060",
+          "distance": 0.6873071193695068
+        },
+        {
+          "image_path": "images/img-001129.jpg",
+          "image_id": "img-001129",
+          "distance": 0.6883981227874756
+        },
+        {
+          "image_id": "img-001067",
+          "image_path": "images/img-001067.jpg",
+          "distance": 0.6888449192047119
+        }
+      ]
+    },
+    {
+      "query_id": "q-0071",
+      "image_id": "img-001266",
+      "text": "A woman in a animal print coat standing next to a smoking woman .",
+      "rank": null,
+      "retrieved": [
+        {
+          "image_id": "img-001014",
+          "image_path": "images/img-001014.jpg",
+          "distance": 0.6763668060302734
+        },
+        {
+          "image_id": "img-001504",
+          "image_path": "images/img-001504.jpg",
+          "distance": 0.6947699785232544
+        },
+        {
+          "image_path": "images/img-001728.jpg",
+          "image_id": "img-001728",
+          "distance": 0.7073146104812622
+        },
+        {
+          "image_path": "images/img-001633.jpg",
+          "image_id": "img-001633",
+          "distance": 0.7200171947479248
+        },
+        {
+          "image_id": "img-001498",
+          "image_path": "images/img-001498.jpg",
+          "distance": 0.7210286855697632
+        },
+        {
+          "image_path": "images/img-001292.jpg",
+          "image_id": "img-001292",
+          "distance": 0.7240813970565796
+        },
+        {
+          "image_path": "images/img-001306.jpg",
+          "image_id": "img-001306",
+          "distance": 0.7248884439468384
+        },
+        {
+          "image_id": "img-000701",
+          "image_path": "images/img-000701.jpg",
+          "distance": 0.7266157865524292
+        },
+        {
+          "image_path": "images/img-000955.jpg",
+          "image_id": "img-000955",
+          "distance": 0.7275108098983765
+        },
+        {
+          "image_path": "images/img-000375.jpg",
+          "image_id": "img-000375",
+          "distance": 0.7304253578186035
+        }
+      ]
+    },
+    {
+      "query_id": "q-0072",
+      "image_id": "img-001813",
+      "text": "A child in a red jacket jumping off of a rock into sand .",
+      "rank": null,
+      "retrieved": [
+        {
+          "image_id": "img-000411",
+          "image_path": "images/img-000411.jpg",
+          "distance": 0.6457638740539551
+        },
+        {
+          "image_id": "img-001217",
+          "image_path": "images/img-001217.jpg",
+          "distance": 0.6620678901672363
+        },
+        {
+          "image_path": "images/img-000702.jpg",
+          "image_id": "img-000702",
+          "distance": 0.6733510494232178
+        },
+        {
+          "image_id": "img-001994",
+          "image_path": "images/img-001994.jpg",
+          "distance": 0.6789854764938354
+        },
+        {
+          "image_id": "img-000145",
+          "image_path": "images/img-000145.jpg",
+          "distance": 0.6822336316108704
+        },
+        {
+          "image_id": "img-000148",
+          "image_path": "images/img-000148.jpg",
+          "distance": 0.683106541633606
+        },
+        {
+          "image_id": "img-000734",
+          "image_path": "images/img-000734.jpg",
+          "distance": 0.6841892004013062
+        },
+        {
+          "image_path": "images/img-000088.jpg",
+          "image_id": "img-000088",
+          "distance": 0.685221791267395
+        },
+        {
+          "image_id": "img-001460",
+          "image_path": "images/img-001460.jpg",
+          "distance": 0.6854310035705566
+        },
+        {
+          "image_path": "images/img-000950.jpg",
+          "image_id": "img-000950",
+          "distance": 0.6888934373855591
+        }
+      ]
+    },
+    {
+      "query_id": "q-0073",
+      "image_id": "img-001764",
+      "text": "A cheerleader dressed in red smiles and cheers .",
+      "rank": 2,
+      "retrieved": [
+        {
+          "image_id": "img-001769",
+          "image_path": "images/img-001769.jpg",
+          "distance": 0.6726967096328735
+        },
+        {
+          "image_path": "images/img-001764.jpg",
+          "image_id": "img-001764",
+          "distance": 0.6761878728866577
+        },
+        {
+          "image_id": "img-001946",
+          "image_path": "images/img-001946.jpg",
+          "distance": 0.7128666043281555
+        },
+        {
+          "image_path": "images/img-001803.jpg",
+          "image_id": "img-001803",
+          "distance": 0.7129993438720703
+        },
+        {
+          "image_id": "img-001612",
+          "image_path": "images/img-001612.jpg",
+          "distance": 0.723791241645813
+        },
+        {
+          "image_id": "img-000640",
+          "image_path": "images/img-000640.jpg",
+          "distance": 0.7254961729049683
+        },
+        {
+          "image_id": "img-000694",
+          "image_path": "images/img-000694.jpg",
+          "distance": 0.7285187840461731
+        },
+        {
+          "image_id": "img-001808",
+          "image_path": "images/img-001808.jpg",
+          "distance": 0.7286024689674377
+        },
+        {
+          "image_id": "img-000610",
+          "image_path": "images/img-000610.jpg",
+          "distance": 0.7293925285339355
+        },
+        {
+          "image_id": "img-001132",
+          "image_path": "images/img-001132.jpg",
+          "distance": 0.7312771081924438
+        }
+      ]
+    },
+    {
+      "query_id": "q-0074",
+      "image_id": "img-000740",
+      "text": "A child in a striped shirt gleefully plays among some water fountains .",
+      "rank": 2,
+      "retrieved": [
+        {
+          "image_id": "img-000081",
+          "image_path": "images/img-000081.jpg",
+          "distance": 0.6193869113922119
+        },
+        {
+          "image_path": "images/img-000740.jpg",
+          "image_id": "img-000740",
+          "distance": 0.6459919214248657
+        },
+        {
+          "image_id": "img-000094",
+          "image_path": "images/img-000094.jpg",
+          "distance": 0.6494931578636169
+        },
+        {
+          "image_path": "images/img-001697.jpg",
+          "image_id": "img-001697",
+          "distance": 0.6511389017105103
+        },
+        {
+          "image_path": "images/img-000219.jpg",
+          "image_id": "img-000219",
+          "distance": 0.6519709825515747
+        },
+        {
+          "image_path": "images/img-000289.jpg",
+          "image_id": "img-000289",
+          "distance": 0.664212703704834
+        },
+        {
+          "image_id": "img-001296",
+          "image_path": "images/img-001296.jpg",
+          "distance": 0.666110634803772
+        },
+        {
+          "image_id": "img-000720",
+          "image_path": "images/img-000720.jpg",
+          "distance": 0.6683659553527832
+        },
+        {
+          "image_path": "images/img-000444.jpg",
+          "image_id": "img-000444",
+          "distance": 0.6744025945663452
+        },
+        {
+          "image_path": "images/img-000277.jpg",
+          "image_id": "img-000277",
+          "distance": 0.6759876012802124
+        }
+      ]
+    },
+    {
+      "query_id": "q-0075",
+      "image_id": "img-001182",
+      "text": "Boys and adults at a soccer game .",
+      "rank": 9,
+      "retrieved": [
+        {
+          "image_path": "images/img-000095.jpg",
+          "image_id": "img-000095",
+          "distance": 0.6968193054199219
+        },
+        {
+          "image_id": "img-001369",
+          "image_path": "images/img-001369.jpg",
+          "distance": 0.7015765905380249
+        },
+        {
+          "image_path": "images/img-001611.jpg",
+          "image_id": "img-001611",
+          "distance": 0.7053651809692383
+        },
+        {
+          "image_path": "images/img-001915.jpg",
+          "image_id": "img-001915",
+          "distance": 0.710574746131897
+        },
+        {
+          "image_path": "images/img-001653.jpg",
+          "image_id": "img-001653",
+          "distance": 0.7126113176345825
+        },
+        {
+          "image_path": "images/img-000763.jpg",
+          "image_id": "img-000763",
+          "distance": 0.7126973867416382
+        },
+        {
+          "image_id": "img-000473",
+          "image_path": "images/img-000473.jpg",
+          "distance": 0.7145326137542725
+        },
+        {
+          "image_path": "images/img-001570.jpg",
+          "image_id": "img-001570",
+          "distance": 0.7148258686065674
+        },
+        {
+          "image_id": "img-001182",
+          "image_path": "images/img-001182.jpg",
+          "distance": 0.7152687907218933
+        },
+        {
+          "image_path": "images/img-000696.jpg",
+          "image_id": "img-000696",
+          "distance": 0.7154127955436707
+        }
+      ]
+    },
+    {
+      "query_id": "q-0076",
+      "image_id": "img-000393",
+      "text": "A lady dressed in shades of black waits on the sidewalk for a train .",
+      "rank": null,
+      "retrieved": [
+        {
+          "image_path": "images/img-001014.jpg",
+          "image_id": "img-001014",
+          "distance": 0.700939953327179
+        },
+        {
+          "image_path": "images/img-000373.jpg",
+          "image_id": "img-000373",
+          "distance": 0.7026001214981079
+        },
+        {
+          "image_id": "img-001504",
+          "image_path": "images/img-001504.jpg",
+          "distance": 0.7036291360855103
+        },
+        {
+          "image_id": "img-001306",
+          "image_path": "images/img-001306.jpg",
+          "distance": 0.7062848806381226
+        },
+        {
+          "image_id": "img-000183",
+          "image_path": "images/img-000183.jpg",
+          "distance": 0.7071448564529419
+        },
+        {
+          "image_path": "images/img-000269.jpg",
+          "image_id": "img-000269",
+          "distance": 0.713476300239563
+        },
+        {
+          "image_path": "images/img-001728.jpg",
+          "image_id": "img-001728",
+          "distance": 0.7145012021064758
+        },
+        {
+          "image_path": "images/img-001498.jpg",
+          "image_id": "img-001498",
+          "distance": 0.7165548801422119
+        },
+        {
+          "image_id": "img-000534",
+          "image_path": "images/img-000534.jpg",
+          "distance": 0.7179739475250244
+        },
+        {
+          "image_id": "img-000967",
+          "image_path": "images/img-000967.jpg",
+          "distance": 0.7200776934623718
+        }
+      ]
+    },
+    {
+      "query_id": "q-0077",
+      "image_id": "img-001442",
+      "text": "A dog pants inside a car",
+      "rank": null,
+      "retrieved": [
+        {
+          "image_path": "images/img-000662.jpg",
+          "image_id": "img-000662",
+          "distance": 0.7059532403945923
+        },
+        {
+          "image_id": "img-000962",
+          "image_path": "images/img-000962.jpg",
+          "distance": 0.7205311059951782
+        },
+        {
+          "image_path": "images/img-000345.jpg",
+          "image_id": "img-000345",
+          "distance": 0.7443463802337646
+        },
+        {
+          "image_id": "img-000380",
+          "image_path": "images/img-000380.jpg",
+          "distance": 0.7447201013565063
+        },
+        {
+          "image_id": "img-001135",
+          "image_path": "images/img-001135.jpg",
+          "distance": 0.7456687688827515
+        },
+        {
+          "image_path": "images/img-000082.jpg",
+          "image_id": "img-000082",
+          "distance": 0.7459302544593811
+        },
+        {
+          "image_path": "images/img-001030.jpg",
+          "image_id": "img-001030",
+          "distance": 0.746148943901062
+        },
+        {
+          "image_id": "img-001057",
+          "image_path": "images/img-001057.jpg",
+          "distance": 0.7467154264450073
+        },
+        {
+          "image_path": "images/img-000788.jpg",
+          "image_id": "img-000788",
+          "distance": 0.7494350075721741
+        },
+        {
+          "image_id": "img-000051",
+          "image_path": "images/img-000051.jpg",
+          "distance": 0.7495043277740479
+        }
+      ]
+    },
+    {
+      "query_id": "q-0078",
+      "image_id": "img-000142",
+      "text": "A girl playing trumpet in a marching band .",
+      "rank": 1,
+      "retrieved": [
+        {
+          "image_path": "images/img-000142.jpg",
+          "image_id": "img-000142",
+          "distance": 0.6366829872131348
+        },
+        {
+          "image_id": "img-001612",
+          "image_path": "images/img-001612.jpg",
+          "distance": 0.6690855026245117
+        },
+        {
+          "image_path": "images/img-001615.jpg",
+          "image_id": "img-001615",
+          "distance": 0.6740422248840332
+        },
+        {
+          "image_path": "images/img-001351.jpg",
+          "image_id": "img-001351",
+          "distance": 0.6819593906402588
+        },
+        {
+          "image_id": "img-001764",
+          "image_path": "images/img-001764.jpg",
+          "distance": 0.7225777506828308
+        },
+        {
+          "image_id": "img-001769",
+          "image_path": "images/img-001769.jpg",
+          "distance": 0.725703775882721
+        },
+        {
+          "image_path": "images/img-001214.jpg",
+          "image_id": "img-001214",
+          "distance": 0.7281416058540344
+        },
+        {
+          "image_path": "images/img-001646.jpg",
+          "image_id": "img-001646",
+          "distance": 0.732505202293396
+        },
+        {
+          "image_id": "img-001504",
+          "image_path": "images/img-001504.jpg",
+          "distance": 0.7366571426391602
+        },
+        {
+          "image_path": "images/img-001045.jpg",
+          "image_id": "img-001045",
+          "distance": 0.7409236431121826
+        }
+      ]
+    },
+    {
+      "query_id": "q-0079",
+      "image_id": "img-000093",
+      "text": "A man jumps gin the air while riding an ATV",
+      "rank": 2,
+      "retrieved": [
+        {
+          "image_path": "images/img-000092.jpg",
+          "image_id": "img-000092",
+          "distance": 0.6765861511230469
+        },
+        {
+          "image_path": "images/img-000093.jpg",
+          "image_id": "img-000093",
+          "distance": 0.6922829151153564
+        },
+        {
+          "image_id": "img-000089",
+          "image_path": "images/img-000089.jpg",
+          "distance": 0.6945273280143738
+        },
+        {
+          "image_path": "images/img-000091.jpg",
+          "image_id": "img-000091",
+          "distance": 0.6972904205322266
+        },
+        {
+          "image_path": "images/img-000936.jpg",
+          "image_id": "img-000936",
+          "distance": 0.706071138381958
+        },
+        {
+          "image_path": "images/img-001105.jpg",
+          "image_id": "img-001105",
+          "distance": 0.715487003326416
+        },
+        {
+          "image_id": "img-000115",
+          "image_path": "images/img-000115.jpg",
+          "distance": 0.7161996960639954
+        },
+        {
+          "image_path": "images/img-000505.jpg",
+          "image_id": "img-000505",
+          "distance": 0.7166100740432739
+        },
+        {
+          "image_id": "img-001311",
+          "image_path": "images/img-001311.jpg",
+          "distance": 0.7199751138687134
+        },
+        {
+          "image_id": "img-000757",
+          "image_path": "images/img-000757.jpg",
+          "distance": 0.7263885736465454
+        }
+      ]
+    },
+    {
+      "query_id": "q-0080",
+      "image_id": "img-001354",
+      "text": "A girl is playing a virtual video game while her image is displayed behind her .",
+      "rank": 4,
+      "retrieved": [
+        {
+          "image_id": "img-000167",
+          "image_path": "images/img-000167.jpg",
+          "distance": 0.6760080456733704
+        },
+        {
+          "image_path": "images/img-001219.jpg",
+          "image_id": "img-001219",
+          "distance": 0.6787985563278198
+        },
+        {
+          "image_path": "images/img-001358.jpg",
+          "image_id": "img-001358",
+          "distance": 0.6961580514907837
+        },
+        {
+          "image_id": "img-001354",
+          "image_path": "images/img-001354.jpg",
+          "distance": 0.7167654633522034
+        },
+        {
+          "image_id": "img-001867",
+          "image_path": "images/img-001867.jpg",
+          "distance": 0.7234078645706177
+        },
+        {
+          "image_path": "images/img-000364.jpg",
+          "image_id": "img-000364",
+          "distance": 0.7262852787971497
+        },
+        {
+          "image_path": "images/img-000154.jpg",
+          "image_id": "img-000154",
+          "distance": 0.7269165515899658
+        },
+        {
+          "image_id": "img-000408",
+          "image_path": "images/img-000408.jpg",
+          "distance": 0.7307345867156982
+        },
+        {
+          "image_id": "img-001343",
+          "image_path": "images/img-001343.jpg",
+          "distance": 0.7340213060379028
+        },
+        {
+          "image_path": "images/img-001285.jpg",
+          "image_id": "img-001285",
+          "distance": 0.7362881898880005
+        }
+      ]
+    },
+    {
+      "query_id": "q-0081",
+      "image_id": "img-000466",
+      "text": "A boy climbing a rock face",
+      "rank": null,
+      "retrieved": [
+        {
+          "image_id": "img-000702",
+          "image_path": "images/img-000702.jpg",
+          "distance": 0.6507487297058105
+        },
+        {
+          "image_id": "img-000340",
+          "image_path": "images/img-000340.jpg",
+          "distance": 0.6662652492523193
+        },
+        {
+          "image_path": "images/img-000088.jpg",
+          "image_id": "img-000088",
+          "distance": 0.6738211512565613
+        },
+        {
+          "image_path": "images/img-001582.jpg",
+          "image_id": "img-001582",
+          "distance": 0.6814863681793213
+        },
+        {
+          "image_id": "img-000066",
+          "image_path": "images/img-000066.jpg",
+          "distance": 0.6833377480506897
+        },
+        {
+          "image_path": "images/img-001024.jpg",
+          "image_id": "img-001024",
+          "distance": 0.6854203939437866
+        },
+        {
+          "image_id": "img-001466",
+          "image_path": "images/img-001466.jpg",
+          "distance": 0.6875629425048828
+        },
+        {
+          "image_id": "img-001626",
+          "image_path": "images/img-001626.jpg",
+          "distance": 0.6885397434234619
+        },
+        {
+          "image_id": "img-001655",
+          "image_path": "images/img-001655.jpg",
+          "distance": 0.6896734237670898
+        },
+        {
+          "image_id": "img-000145",
+          "image_path": "images/img-000145.jpg",
+          "distance": 0.6900594234466553
+        }
+      ]
+    },
+    {
+      "query_id": "q-0082",
+      "image_id": "img-001583",
+      "text": "A child feels like he 's flying as his mom throws him up in the air during a game .",
+      "rank": null,
+      "retrieved": [
+        {
+          "image_id": "img-000126",
+          "image_path": "images/img-000126.jpg",
+          "distance": 0.6770036816596985
+        },
+        {
+          "image_id": "img-000258",
+          "image_path": "images/img-000258.jpg",
+          "distance": 0.6857150793075562
+        },
+        {
+          "image_path": "images/img-001482.jpg",
+          "image_id": "img-001482",
+          "distance": 0.6857419013977051
+        },
+        {
+          "image_id": "img-001213",
+          "image_path": "images/img-001213.jpg",
+          "distance": 0.6890811324119568
+        },
+        {
+          "image_id": "img-000888",
+          "image_path": "images/img-000888.jpg",
+          "distance": 0.6924586892127991
+        },
+        {
+          "image_id": "img-001316",
+          "image_path": "images/img-001316.jpg",
+          "distance": 0.6933435201644897
+        },
+        {
+          "image_path": "images/img-001920.jpg",
+          "image_id": "img-001920",
+          "distance": 0.6939171552658081
+        },
+        {
+          "image_id": "img-000823",
+          "image_path": "images/img-000823.jpg",
+          "distance": 0.6956468224525452
+        },
+        {
+          "image_id": "img-001122",
+          "image_path": "images/img-001122.jpg",
+          "distance": 0.6966025829315186
+        },
+        {
+          "image_id": "img-000473",
+          "image_path": "images/img-000473.jpg",
+          "distance": 0.700580358505249
+        }
+      ]
+    },
+    {
+      "query_id": "q-0083",
+      "image_id": "img-000592",
+      "text": "A skydiver safely lands while another watches from the ground .",
+      "rank": 1,
+      "retrieved": [
+        {
+          "image_id": "img-000592",
+          "image_path": "images/img-000592.jpg",
+          "distance": 0.6601154804229736
+        },
+        {
+          "image_path": "images/img-000879.jpg",
+          "image_id": "img-000879",
+          "distance": 0.6777172684669495
+        },
+        {
+          "image_path": "images/img-000639.jpg",
+          "image_id": "img-000639",
+          "distance": 0.6849981546401978
+        },
+        {
+          "image_path": "images/img-000880.jpg",
+          "image_id": "img-000880",
+          "distance": 0.6929585933685303
+        },
+        {
+          "image_path": "images/img-000568.jpg",
+          "image_id": "img-000568",
+          "distance": 0.7146164178848267
+        },
+        {
+          "image_id": "img-000878",
+          "image_path": "images/img-000878.jpg",
+          "distance": 0.7146857380867004
+        },
+        {
+          "image_path": "images/img-000913.jpg",
+          "image_id": "img-000913",
+          "distance": 0.7172868251800537
+        },
+        {
+          "image_path": "images/img-000045.jpg",
+          "image_id": "img-000045",
+          "distance": 0.7184897661209106
+        },
+        {
+          "image_id": "img-000258",
+          "image_path": "images/img-000258.jpg",
+          "distance": 0.721754789352417
+        },
+        {
+          "image_id": "img-000888",
+          "image_path": "images/img-000888.jpg",
+          "distance": 0.7225489616394043
+        }
+      ]
+    },
+    {
+      "query_id": "q-0084",
+      "image_id": "img-000163",
+      "text": "A brown dog running through the grass and flowers .",
+      "rank": 9,
+      "retrieved": [
+        {
+          "image_path": "images/img-000866.jpg",
+          "image_id": "img-000866",
+          "distance": 0.6377296447753906
+        },
+        {
+          "image_id": "img-001143",
+          "image_path": "images/img-001143.jpg",
+          "distance": 0.6398890018463135
+        },
+        {
+          "image_path": "images/img-001961.jpg",
+          "image_id": "img-001961",
+          "distance": 0.6499885320663452
+        },
+        {
+          "image_path": "images/img-000013.jpg",
+          "image_id": "img-000013",
+          "distance": 0.6794030666351318
+        },
+        {
+          "image_id": "img-001461",
+          "image_path": "images/img-001461.jpg",
+          "distance": 0.6797209978103638
+        },
+        {
+          "image_path": "images/img-000344.jpg",
+          "image_id": "img-000344",
+          "distance": 0.6805195808410645
+        },
+        {
+          "image_id": "img-000638",
+          "image_path": "images/img-000638.jpg",
+          "distance": 0.6805593967437744
+        },
+        {
+          "image_path": "images/img-000346.jpg",
+          "image_id": "img-000346",
+          "distance": 0.681613564491272
+        },
+        {
+          "image_path": "images/img-000163.jpg",
+          "image_id": "img-000163",
+          "distance": 0.6864339709281921
+        },
+        {
+          "image_id": "img-000185",
+          "image_path": "images/img-000185.jpg",
+          "distance": 0.68699049949646
+        }
+      ]
+    },
+    {
+      "query_id": "q-0085",
+      "image_id": "img-001751",
+      "text": "A miniature dachshund has an apron on its back .",
+      "rank": 2,
+      "retrieved": [
+        {
+          "image_path": "images/img-000814.jpg",
+          "image_id": "img-000814",
+          "distance": 0.6707857847213745
+        },
+        {
+          "image_id": "img-001751",
+          "image_path": "images/img-001751.jpg",
+          "distance": 0.6787140369415283
+        },
+        {
+          "image_path": "images/img-001841.jpg",
+          "image_id": "img-001841",
+          "distance": 0.7040170431137085
+        },
+        {
+          "image_path": "images/img-001990.jpg",
+          "image_id": "img-001990",
+          "distance": 0.7114362716674805
+        },
+        {
+          "image_path": "images/img-000855.jpg",
+          "image_id": "img-000855",
+          "distance": 0.7152928113937378
+        },
+        {
+          "image_id": "img-000751",
+          "image_path": "images/img-000751.jpg",
+          "distance": 0.7187926769256592
+        },
+        {
+          "image_id": "img-001585",
+          "image_path": "images/img-001585.jpg",
+          "distance": 0.7197778224945068
+        },
+        {
+          "image_id": "img-000222",
+          "image_path": "images/img-000222.jpg",
+          "distance": 0.7260276079177856
+        },
+        {
+          "image_id": "img-000541",
+          "image_path": "images/img-000541.jpg",
+          "distance": 0.7267664670944214
+        },
+        {
+          "image_path": "images/img-000640.jpg",
+          "image_id": "img-000640",
+          "distance": 0.7280156016349792
+        }
+      ]
+    },
+    {
+      "query_id": "q-0086",
+      "image_id": "img-001774",
+      "text": "A football player from the Sooners is about to be taken down by the opposing team in a game .",
+      "rank": 5,
+      "retrieved": [
+        {
+          "image_id": "img-001798",
+          "image_path": "images/img-001798.jpg",
+          "distance": 0.6694514751434326
+        },
+        {
+          "image_path": "images/img-001799.jpg",
+          "image_id": "img-001799",
+          "distance": 0.6713343858718872
+        },
+        {
+          "image_id": "img-001794",
+          "image_path": "images/img-001794.jpg",
+          "distance": 0.6722215414047241
+        },
+        {
+          "image_path": "images/img-001807.jpg",
+          "image_id": "img-001807",
+          "distance": 0.6732693910598755
+        },
+        {
+          "image_path": "images/img-001774.jpg",
+          "image_id": "img-001774",
+          "distance": 0.6746540069580078
+        },
+        {
+          "image_id": "img-001810",
+          "image_path": "images/img-001810.jpg",
+          "distance": 0.6757689714431763
+        },
+        {
+          "image_id": "img-001795",
+          "image_path": "images/img-001795.jpg",
+          "distance": 0.6780967712402344
+        },
+        {
+          "image_path": "images/img-001809.jpg",
+          "image_id": "img-001809",
+          "distance": 0.6783800721168518
+        },
+        {
+          "image_path": "images/img-001789.jpg",
+          "image_id": "img-001789",
+          "distance": 0.6784696578979492
+        },
+        {
+          "image_path": "images/img-001787.jpg",
+          "image_id": "img-001787",
+          "distance": 0.6787253618240356
+        }
+      ]
+    },
+    {
+      "query_id": "q-0087",
+      "image_id": "img-000206",
+      "text": "A close-up of a young girl with a pink shirt laying on grass .",
+      "rank": 1,
+      "retrieved": [
+        {
+          "image_id": "img-000206",
+          "image_path": "images/img-000206.jpg",
+          "distance": 0.6433994770050049
+        },
+        {
+          "image_id": "img-000227",
+          "image_path": "images/img-000227.jpg",
+          "distance": 0.701063871383667
+        },
+        {
+          "image_path": "images/img-001641.jpg",
+          "image_id": "img-001641",
+          "distance": 0.7024049758911133
+        },
+        {
+          "image_id": "img-000110",
+          "image_path": "images/img-000110.jpg",
+          "distance": 0.7073498964309692
+        },
+        {
+          "image_id": "img-001470",
+          "image_path": "images/img-001470.jpg",
+          "distance": 0.709196925163269
+        },
+        {
+          "image_path": "images/img-000339.jpg",
+          "image_id": "img-000339",
+          "distance": 0.7185271978378296
+        },
+        {
+          "image_id": "img-001328",
+          "image_path": "images/img-001328.jpg",
+          "distance": 0.7206873893737793
+        },
+        {
+          "image_id": "img-001839",
+          "image_path": "images/img-001839.jpg",
+          "distance": 0.7219390869140625
+        },
+        {
+          "image_path": "images/img-000346.jpg",
+          "image_id": "img-000346",
+          "distance": 0.7228673696517944
+        },
+        {
+          "image_path": "images/img-000963.jpg",
+          "image_id": "img-000963",
+          "distance": 0.7231362462043762
+        }
+      ]
+    },
+    {
+      "query_id": "q-0088",
+      "image_id": "img-000928",
+      "text": "A man casting a fishing pole .",
+      "rank": 4,
+      "retrieved": [
+        {
+          "image_id": "img-000658",
+          "image_path": "images/img-000658.jpg",
+          "distance": 0.6649894118309021
+        },
+        {
+          "image_id": "img-000331",
+          "image_path": "images/img-000331.jpg",
+          "distance": 0.6757566332817078
+        },
+        {
+          "image_id": "img-000019",
+          "image_path": "images/img-000019.jpg",
+          "distance": 0.6792315244674683
+        },
+        {
+          "image_id": "img-000928",
+          "image_path": "images/img-000928.jpg",
+          "distance": 0.6829115152359009
+        },
+        {
+          "image_path": "images/img-001625.jpg",
+          "image_id": "img-001625",
+          "distance": 0.6836276054382324
+        },
+        {
+          "image_path": "images/img-001958.jpg",
+          "image_id": "img-001958",
+          "distance": 0.6873533725738525
+        },
+        {
+          "image_path": "images/img-001522.jpg",
+          "image_id": "img-001522",
+          "distance": 0.6873981356620789
+        },
+        {
+          "image_path": "images/img-000546.jpg",
+          "image_id": "img-000546",
+          "distance": 0.6898043155670166
+        },
+        {
+          "image_path": "images/img-000684.jpg",
+          "image_id": "img-000684",
+          "distance": 0.6909159421920776
+        },
+        {
+          "image_id": "img-000169",
+          "image_path": "images/img-000169.jpg",
+          "distance": 0.6981973648071289
+        }
+      ]
+    },
+    {
+      "query_id": "q-0089",
+      "image_id": "img-001301",
+      "text": "Four bicyclists ride along a dirt road between two wire fences .",
+      "rank": 1,
+      "retrieved": [
+        {
+          "image_path": "images/img-001301.jpg",
+          "image_id": "img-001301",
+          "distance": 0.6530153751373291
+        },
+        {
+          "image_id": "img-000762",
+          "image_path": "images/img-000762.jpg",
+          "distance": 0.6875643134117126
+        },
+        {
+          "image_path": "images/img-000824.jpg",
+          "image_id": "img-000824",
+          "distance": 0.715275228023529
+        },
+        {
+          "image_id": "img-000948",
+          "image_path": "images/img-000948.jpg",
+          "distance": 0.7164100408554077
+        },
+        {
+          "image_path": "images/img-000115.jpg",
+          "image_id": "img-000115",
+          "distance": 0.716620683670044
+        },
+        {
+          "image_id": "img-000097",
+          "image_path": "images/img-000097.jpg",
+          "distance": 0.7262893915176392
+        },
+        {
+          "image_id": "img-000207",
+          "image_path": "images/img-000207.jpg",
+          "distance": 0.7287155985832214
+        },
+        {
+          "image_id": "img-001027",
+          "image_path": "images/img-001027.jpg",
+          "distance": 0.7325694561004639
+        },
+        {
+          "image_id": "img-001872",
+          "image_path": "images/img-001872.jpg",
+          "distance": 0.7351596355438232
+        },
+        {
+          "image_id": "img-001218",
+          "image_path": "images/img-001218.jpg",
+          "distance": 0.7357385158538818
+        }
+      ]
+    },
+    {
+      "query_id": "q-0090",
+      "image_id": "img-001708",
+      "text": "A dog goes through an obstacle course while a person looks on .",
+      "rank": 3,
+      "retrieved": [
+        {
+          "image_path": "images/img-000655.jpg",
+          "image_id": "img-000655",
+          "distance": 0.6426202058792114
+        },
+        {
+          "image_id": "img-001013",
+          "image_path": "images/img-001013.jpg",
+          "distance": 0.6429265737533569
+        },
+        {
+          "image_path": "images/img-001708.jpg",
+          "image_id": "img-001708",
+          "distance": 0.6536205410957336
+        },
+        {
+          "image_path": "images/img-000013.jpg",
+          "image_id": "img-000013",
+          "distance": 0.6548978090286255
+        },
+        {
+          "image_path": "images/img-000785.jpg",
+          "image_id": "img-000785",
+          "distance": 0.6550047993659973
+        },
+        {
+          "image_id": "img-001275",
+          "image_path": "images/img-001275.jpg",
+          "distance": 0.6628040075302124
+        },
+        {
+          "image_id": "img-001197",
+          "image_path": "images/img-001197.jpg",
+          "distance": 0.6629898548126221
+        },
+        {
+          "image_id": "img-001898",
+          "image_path": "images/img-001898.jpg",
+          "distance": 0.6631540060043335
+        },
+        {
+          "image_path": "images/img-000699.jpg",
+          "image_id": "img-000699",
+          "distance": 0.6632661819458008
+        },
+        {
+          "image_id": "img-000082",
+          "image_path": "images/img-000082.jpg",
+          "distance": 0.6668176054954529
+        }
+      ]
+    },
+    {
+      "query_id": "q-0091",
+      "image_id": "img-000747",
+      "text": "black dogs jump in pool to a hand .",
+      "rank": 1,
+      "retrieved": [
+        {
+          "image_path": "images/img-000747.jpg",
+          "image_id": "img-000747",
+          "distance": 0.6457766890525818
+        },
+        {
+          "image_path": "images/img-000326.jpg",
+          "image_id": "img-000326",
+          "distance": 0.6660485863685608
+        },
+        {
+          "image_path": "images/img-001910.jpg",
+          "image_id": "img-001910",
+          "distance": 0.6735346913337708
+        },
+        {
+          "image_path": "images/img-000229.jpg",
+          "image_id": "img-000229",
+          "distance": 0.674919605255127
+        },
+        {
+          "image_id": "img-000166",
+          "image_path": "images/img-000166.jpg",
+          "distance": 0.6754595041275024
+        },
+        {
+          "image_id": "img-001095",
+          "image_path": "images/img-001095.jpg",
+          "distance": 0.6783509850502014
+        },
+        {
+          "image_path": "images/img-000918.jpg",
+          "image_id": "img-000918",
+          "distance": 0.6840575337409973
+        },
+        {
+          "image_path": "images/img-000319.jpg",
+          "image_id": "img-000319",
+          "distance": 0.6846908330917358
+        },
+        {
+          "image_id": "img-001144",
+          "image_path": "images/img-001144.jpg",
+          "distance": 0.6922374963760376
+        },
+        {
+          "image_id": "img-000686",
+          "image_path": "images/img-000686.jpg",
+          "distance": 0.7017245292663574
+        }
+      ]
+    },
+    {
+      "query_id": "q-0092",
+      "image_id": "img-000333",
+      "text": "A man is climbing up a wall",
+      "rank": null,
+      "retrieved": [
+        {
+          "image_id": "img-001582",
+          "image_path": "images/img-001582.jpg",
+          "distance": 0.6796674728393555
+        },
+        {
+          "image_path": "images/img-001655.jpg",
+          "image_id": "img-001655",
+          "distance": 0.6902362108230591
+        },
+        {
+          "image_path": "images/img-001196.jpg",
+          "image_id": "img-001196",
+          "distance": 0.6918325424194336
+        },
+        {
+          "image_id": "img-000340",
+          "image_path": "images/img-000340.jpg",
+          "distance": 0.6928105354309082
+        },
+        {
+          "image_id": "img-001333",
+          "image_path": "images/img-001333.jpg",
+          "distance": 0.6941232085227966
+        },
+        {
+          "image_id": "img-001440",
+          "image_path": "images/img-001440.jpg",
+          "distance": 0.7020832300186157
+        },
+        {
+          "image_id": "img-000414",
+          "image_path": "images/img-000414.jpg",
+          "distance": 0.7026888132095337
+        },
+        {
+          "image_id": "img-000773",
+          "image_path": "images/img-000773.jpg",
+          "distance": 0.7045400738716125
+        },
+        {
+          "image_path": "images/img-000529.jpg",
+          "image_id": "img-000529",
+          "distance": 0.7049537897109985
+        },
+        {
+          "image_path": "images/img-000400.jpg",
+          "image_id": "img-000400",
+          "distance": 0.7054923176765442
+        }
+      ]
+    },
+    {
+      "query_id": "q-0093",
+      "image_id": "img-000758",
+      "text": "An upset woman with her makeup streaming down her face from her tears .",
+      "rank": null,
+      "retrieved": [
+        {
+          "image_id": "img-001304",
+          "image_path": "images/img-001304.jpg",
+          "distance": 0.7131466865539551
+        },
+        {
+          "image_path": "images/img-000821.jpg",
+          "image_id": "img-000821",
+          "distance": 0.7205813527107239
+        },
+        {
+          "image_path": "images/img-000373.jpg",
+          "image_id": "img-000373",
+          "distance": 0.7415575981140137
+        },
+        {
+          "image_path": "images/img-001438.jpg",
+          "image_id": "img-001438",
+          "distance": 0.7457531690597534
+        },
+        {
+          "image_id": "img-001678",
+          "image_path": "images/img-001678.jpg",
+          "distance": 0.7459962964057922
+        },
+        {
+          "image_id": "img-001214",
+          "image_path": "images/img-001214.jpg",
+          "distance": 0.7476907968521118
+        },
+        {
+          "image_path": "images/img-001244.jpg",
+          "image_id": "img-001244",
+          "distance": 0.7478885650634766
+        },
+        {
+          "image_id": "img-001045",
+          "image_path": "images/img-001045.jpg",
+          "distance": 0.7479456067085266
+        },
+        {
+          "image_id": "img-001504",
+          "image_path": "images/img-001504.jpg",
+          "distance": 0.7519104480743408
+        },
+        {
+          "image_id": "img-000754",
+          "image_path": "images/img-000754.jpg",
+          "distance": 0.7526111602783203
+        }
+      ]
+    },
+    {
+      "query_id": "q-0094",
+      "image_id": "img-000727",
+      "text": "The camera focuses on two people 's legs .",
+      "rank": null,
+      "retrieved": [
+        {
+          "image_id": "img-000299",
+          "image_path": "images/img-000299.jpg",
+          "distance": 0.7127151489257812
+        },
+        {
+          "image_id": "img-000017",
+          "image_path": "images/img-000017.jpg",
+          "distance": 0.7228701114654541
+        },
+        {
+          "image_id": "img-001014",
+          "image_path": "images/img-001014.jpg",
+          "distance": 0.7269295454025269
+        },
+        {
+          "image_id": "img-001559",
+          "image_path": "images/img-001559.jpg",
+          "distance": 0.7270397543907166
+        },
+        {
+          "image_id": "img-000844",
+          "image_path": "images/img-000844.jpg",
+          "distance": 0.7301994562149048
+        },
+        {
+          "image_path": "images/img-001402.jpg",
+          "image_id": "img-001402",
+          "distance": 0.7311445474624634
+        },
+        {
+          "image_path": "images/img-000301.jpg",
+          "image_id": "img-000301",
+          "distance": 0.7323764562606812
+        },
+        {
+          "image_id": "img-000705",
+          "image_path": "images/img-000705.jpg",
+          "distance": 0.7352085113525391
+        },
+        {
+          "image_path": "images/img-000721.jpg",
+          "image_id": "img-000721",
+          "distance": 0.735973060131073
+        },
+        {
+          "image_id": "img-001051",
+          "image_path": "images/img-001051.jpg",
+          "distance": 0.737862229347229
+        }
+      ]
+    },
+    {
+      "query_id": "q-0095",
+      "image_id": "img-000429",
+      "text": "A child dressed as a ninja is jumping through the air under a large tree .",
+      "rank": 1,
+      "retrieved": [
+        {
+          "image_path": "images/img-000429.jpg",
+          "image_id": "img-000429",
+          "distance": 0.6124127507209778
+        },
+        {
+          "image_path": "images/img-001315.jpg",
+          "image_id": "img-001315",
+          "distance": 0.6615391969680786
+        },
+        {
+          "image_path": "images/img-001739.jpg",
+          "image_id": "img-001739",
+          "distance": 0.6665188670158386
+        },
+        {
+          "image_path": "images/img-001923.jpg",
+          "image_id": "img-001923",
+          "distance": 0.6751327514648438
+        },
+        {
+          "image_path": "images/img-000702.jpg",
+          "image_id": "img-000702",
+          "distance": 0.6772995591163635
+        },
+        {
+          "image_id": "img-000428",
+          "image_path": "images/img-000428.jpg",
+          "distance": 0.6787524223327637
+        },
+        {
+          "image_path": "images/img-001131.jpg",
+          "image_id": "img-001131",
+          "distance": 0.6831437349319458
+        },
+        {
+          "image_path": "images/img-000909.jpg",
+          "image_id": "img-000909",
+          "distance": 0.6867566108703613
+        },
+        {
+          "image_id": "img-001867",
+          "image_path": "images/img-001867.jpg",
+          "distance": 0.6868765354156494
+        },
+        {
+          "image_path": "images/img-000803.jpg",
+          "image_id": "img-000803",
+          "distance": 0.6877007484436035
+        }
+      ]
+    },
+    {
+      "query_id": "q-0096",
+      "image_id": "img-001372",
+      "text": "A group of four kids stand in front of a statue of a large animal .",
+      "rank": 2,
+      "retrieved": [
+        {
+          "image_path": "images/img-000972.jpg",
+          "image_id": "img-000972",
+          "distance": 0.6996158361434937
+        },
+        {
+          "image_id": "img-001372",
+          "image_path": "images/img-001372.jpg",
+          "distance": 0.7022356986999512
+        },
+        {
+          "image_id": "img-000444",
+          "image_path": "images/img-000444.jpg",
+          "distance": 0.7124751806259155
+        },
+        {
+          "image_path": "images/img-000891.jpg",
+          "image_id": "img-000891",
+          "distance": 0.7251550555229187
+        },
+        {
+          "image_path": "images/img-001867.jpg",
+          "image_id": "img-001867",
+          "distance": 0.726900041103363
+        },
+        {
+          "image_path": "images/img-001027.jpg",
+          "image_id": "img-001027",
+          "distance": 0.7335305213928223
+        },
+        {
+          "image_path": "images/img-001016.jpg",
+          "image_id": "img-001016",
+          "distance": 0.7341314554214478
+        },
+        {
+          "image_path": "images/img-000630.jpg",
+          "image_id": "img-000630",
+          "distance": 0.7361344695091248
+        },
+        {
+          "image_path": "images/img-000312.jpg",
+          "image_id": "img-000312",
+          "distance": 0.7364166378974915
+        },
+        {
+          "image_id": "img-000528",
+          "image_path": "images/img-000528.jpg",
+          "distance": 0.7383930087089539
+        }
+      ]
+    },
+    {
+      "query_id": "q-0097",
+      "image_id": "img-000546",
+      "text": "A dark haired woman wearing a brown jacket and fatigue bottoms and a balding man wearing a green sweater and blue jeans with a fishing pole , stand at the foot of the surf .",
+      "rank": 1,
+      "retrieved": [
+        {
+          "image_id": "img-000546",
+          "image_path": "images/img-000546.jpg",
+          "distance": 0.6197049617767334
+        },
+        {
+          "image_path": "images/img-001011.jpg",
+          "image_id": "img-001011",
+          "distance": 0.6681240797042847
+        },
+        {
+          "image_id": "img-001428",
+          "image_path": "images/img-001428.jpg",
+          "distance": 0.6819133758544922
+        },
+        {
+          "image_path": "images/img-001012.jpg",
+          "image_id": "img-001012",
+          "distance": 0.6962852478027344
+        },
+        {
+          "image_path": "images/img-000658.jpg",
+          "image_id": "img-000658",
+          "distance": 0.6973453760147095
+        },
+        {
+          "image_path": "images/img-000659.jpg",
+          "image_id": "img-000659",
+          "distance": 0.6979198455810547
+        },
+        {
+          "image_path": "images/img-001460.jpg",
+          "image_id": "img-001460",
+          "distance": 0.701022207736969
+        },
+        {
+          "image_path": "images/img-000548.jpg",
+          "image_id": "img-000548",
+          "distance": 0.7011629343032837
+        },
+        {
+          "image_id": "img-000858",
+          "image_path": "images/img-000858.jpg",
+          "distance": 0.7049456834793091
+        },
+        {
+          "image_id": "img-001410",
+          "image_path": "images/img-001410.jpg",
+          "distance": 0.7051985859870911
+        }
+      ]
+    },
+    {
+      "query_id": "q-0098",
+      "image_id": "img-001437",
+      "text": "A man and a little girl in a pink dress",
+      "rank": 1,
+      "retrieved": [
+        {
+          "image_path": "images/img-001437.jpg",
+          "image_id": "img-001437",
+          "distance": 0.7008492946624756
+        },
+        {
+          "image_path": "images/img-000780.jpg",
+          "image_id": "img-000780",
+          "distance": 0.7150307297706604
+        },
+        {
+          "image_path": "images/img-000781.jpg",
+          "image_id": "img-000781",
+          "distance": 0.7217676639556885
+        },
+        {
+          "image_id": "img-001686",
+          "image_path": "images/img-001686.jpg",
+          "distance": 0.7301693558692932
+        },
+        {
+          "image_id": "img-001211",
+          "image_path": "images/img-001211.jpg",
+          "distance": 0.7322019338607788
+        },
+        {
+          "image_id": "img-000203",
+          "image_path": "images/img-000203.jpg",
+          "distance": 0.7325615882873535
+        },
+        {
+          "image_id": "img-000444",
+          "image_path": "images/img-000444.jpg",
+          "distance": 0.7337391376495361
+        },
+        {
+          "image_path": "images/img-000997.jpg",
+          "image_id": "img-000997",
+          "distance": 0.7340673804283142
+        },
+        {
+          "image_path": "images/img-000284.jpg",
+          "image_id": "img-000284",
+          "distance": 0.7342265844345093
+        },
+        {
+          "image_path": "images/img-001633.jpg",
+          "image_id": "img-001633",
+          "distance": 0.734408974647522
+        }
+      ]
+    },
+    {
+      "query_id": "q-0099",
+      "image_id": "img-001918",
+      "text": "A group of men wearing similar clothing backpacks through the countryside .",
+      "rank": 1,
+      "retrieved": [
+        {
+          "image_path": "images/img-001918.jpg",
+          "image_id": "img-001918",
+          "distance": 0.6641887426376343
+        },
+        {
+          "image_id": "img-000843",
+          "image_path": "images/img-000843.jpg",
+          "distance": 0.6741122007369995
+        },
+        {
+          "image_id": "img-001384",
+          "image_path": "images/img-001384.jpg",
+          "distance": 0.6822270750999451
+        },
+        {
+          "image_id": "img-001989",
+          "image_path": "images/img-001989.jpg",
+          "distance": 0.6836981773376465
+        },
+        {
+          "image_path": "images/img-000829.jpg",
+          "image_id": "img-000829",
+          "distance": 0.6905747056007385
+        },
+        {
+          "image_id": "img-000412",
+          "image_path": "images/img-000412.jpg",
+          "distance": 0.6931829452514648
+        },
+        {
+          "image_path": "images/img-001528.jpg",
+          "image_id": "img-001528",
+          "distance": 0.6957932710647583
+        },
+        {
+          "image_path": "images/img-000257.jpg",
+          "image_id": "img-000257",
+          "distance": 0.6960688829421997
+        },
+        {
+          "image_id": "img-000317",
+          "image_path": "images/img-000317.jpg",
+          "distance": 0.7006068229675293
+        },
+        {
+          "image_id": "img-001400",
+          "image_path": "images/img-001400.jpg",
+          "distance": 0.7027654647827148
+        }
+      ]
+    }
+  ]
+}

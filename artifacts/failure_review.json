@@ -1,0 +1,86 @@
+[
+  {
+    "query_id": "q-0003",
+    "correct_image_id": "img-001518",
+    "top1_image_id": "img-000080",
+    "category": "Action mismatch",
+    "observation": "Both images show a brown dog in snow. The paired dog is twisted mid-shake; the top result faces forward and does not visibly show that action."
+  },
+  {
+    "query_id": "q-0004",
+    "correct_image_id": "img-000563",
+    "top1_image_id": "img-000632",
+    "category": "Attribute and context mismatch",
+    "observation": "The paired man wears sunglasses and a light shirt. The top result emphasizes a sunset horizon on a boat but the man has no visible sunglasses and a darker shirt."
+  },
+  {
+    "query_id": "q-0005",
+    "correct_image_id": "img-000501",
+    "top1_image_id": "img-001095",
+    "category": "Action mismatch",
+    "observation": "The paired black dog is swimming with an object at its mouth. The top result shows a black dog airborne from a dock rather than swimming."
+  },
+  {
+    "query_id": "q-0006",
+    "correct_image_id": "img-000457",
+    "top1_image_id": "img-000335",
+    "category": "Spatial relationship mismatch",
+    "observation": "The paired child sits on the man's shoulders. The top result shows a child held overhead with raised arms, a similar silhouette but different support relationship."
+  },
+  {
+    "query_id": "q-0010",
+    "correct_image_id": "img-001385",
+    "top1_image_id": "img-001989",
+    "category": "Context mismatch",
+    "observation": "The top result has backpackers on a snowy wooded trail. The paired photo has a small hiker below a prominent snowy mountain; the forest result misses that mountain context."
+  },
+  {
+    "query_id": "q-0014",
+    "correct_image_id": "img-000178",
+    "top1_image_id": "img-000012",
+    "category": "Plausible alternate match",
+    "observation": "Both photos show multiple climbers on rock. The top result plausibly matches the broad caption; exact paired-image scoring still marks it wrong. Not a clear semantic error."
+  },
+  {
+    "query_id": "q-0015",
+    "correct_image_id": "img-001209",
+    "top1_image_id": "img-000549",
+    "category": "Context mismatch",
+    "observation": "The top result shows two children on a wooded boardwalk but no visible pond. The paired image includes a dark pond beside the children."
+  },
+  {
+    "query_id": "q-0018",
+    "correct_image_id": "img-000061",
+    "top1_image_id": "img-000008",
+    "category": "Action and participant mismatch",
+    "observation": "The paired photo shows two boys close to the camera, one with tongue out. The top result shows one boy by outdoor steps, without the tongue-out expression or second boy."
+  },
+  {
+    "query_id": "q-0019",
+    "correct_image_id": "img-000191",
+    "top1_image_id": "img-000221",
+    "category": "Spatial relationship mismatch",
+    "observation": "The top result contains one person on a bench. It misses the three-person arrangement and the behind relationship specified by the query."
+  },
+  {
+    "query_id": "q-0020",
+    "correct_image_id": "img-000447",
+    "top1_image_id": "img-000017",
+    "category": "Ambiguous caption / alternate scene",
+    "observation": "The query is grammatically unclear. Both scenes include seated people, but the top result shows adults near a stroller and does not preserve the paired foreground person in black shorts."
+  },
+  {
+    "query_id": "q-0021",
+    "correct_image_id": "img-000476",
+    "top1_image_id": "img-001131",
+    "category": "Plausible alternate match",
+    "observation": "The top result shows children moving on grass and plausibly satisfies the broad query. The paired image is a different group of running children; one-pair labels penalize this alternate."
+  },
+  {
+    "query_id": "q-0022",
+    "correct_image_id": "img-001034",
+    "top1_image_id": "img-000562",
+    "category": "Plausible alternate match",
+    "observation": "Both paired and top-result images show a dog on green sloping grass. The paired image has a steep mountainside; the caption itself is broad enough to describe the top result."
+  }
+]

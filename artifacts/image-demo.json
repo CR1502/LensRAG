@@ -1,0 +1,23 @@
+[
+  {
+    "id": "img-000000::caption-3",
+    "image_id": "img-000000",
+    "image_path": "images/img-000000.jpg",
+    "caption": "A little girl climbing the stairs to her playhouse .",
+    "distance": 0.643134593963623
+  },
+  {
+    "id": "img-000000::caption-4",
+    "image_id": "img-000000",
+    "image_path": "images/img-000000.jpg",
+    "caption": "A little girl in a pink dress going into a wooden cabin .",
+    "distance": 0.6521934866905212
+  },
+  {
+    "id": "img-000000::caption-2",
+    "image_id": "img-000000",
+    "image_path": "images/img-000000.jpg",
+    "caption": "A little girl climbing into a wooden playhouse .",
+    "distance": 0.6546382904052734
+  }
+]
