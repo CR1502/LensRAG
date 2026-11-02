@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lensrag"
+version = "0.1.0"
+description = "A retrieval-augmented generation project."
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+license = { file = "LICENSE" }
+dependencies = [
+    "torch",
+    "transformers>=4.46,<5",
+    "chromadb",
+    "pillow",
+    "numpy",
+    "huggingface_hub",
+    "pyarrow",
+    "tqdm",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+lensrag = "lensrag.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
