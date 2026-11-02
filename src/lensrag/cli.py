@@ -41,6 +41,13 @@ def build_parser() -> argparse.ArgumentParser:
     stats.add_argument("--data-dir", type=Path, default=Path("data"))
     stats.add_argument("--db-path", type=Path, default=Path("data/chroma"))
 
+    evaluate = sub.add_parser("evaluate", help="Run held-out retrieval evaluation")
+    evaluate.add_argument("--data-dir", type=Path, default=Path("data"))
+    evaluate.add_argument("--db-path", type=Path, default=Path("data/chroma"))
+    evaluate.add_argument("--output-dir", type=Path, default=Path("artifacts"))
+    evaluate.add_argument("--device", choices=["cpu", "mps", "cuda"], default="cpu")
+    report = sub.add_parser("report", help="Generate evaluation report")
+    report.add_argument("--output-dir", type=Path, default=Path("artifacts"))
     return parser
 
 
@@ -68,6 +75,13 @@ def main(argv: list[str] | None = None) -> None:
                   "indexed_images": index.images.count(),
                   "indexed_captions": index.captions.count(),
                   "manifest_digest": manifest["digest"]}
+    elif args.command == "evaluate":
+        from .evaluation import evaluate
+        result = evaluate(data_dir=args.data_dir, db_path=args.db_path,
+                          output_dir=args.output_dir, device=args.device)
+    else:
+        from .evaluation import generate_report
+        result = generate_report(output_dir=args.output_dir)
     print(json.dumps(result, indent=2, default=str))
 
 

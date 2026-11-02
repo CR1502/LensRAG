@@ -1,0 +1,23 @@
+[
+  {
+    "id": "img-000000",
+    "image_id": "img-000000",
+    "image_path": "images/img-000000.jpg",
+    "caption": null,
+    "distance": 1.7881393432617188e-07
+  },
+  {
+    "id": "img-000320",
+    "image_id": "img-000320",
+    "image_path": "images/img-000320.jpg",
+    "caption": null,
+    "distance": 0.21086817979812622
+  },
+  {
+    "id": "img-000783",
+    "image_id": "img-000783",
+    "image_path": "images/img-000783.jpg",
+    "caption": null,
+    "distance": 0.251323938369751
+  }
+]
